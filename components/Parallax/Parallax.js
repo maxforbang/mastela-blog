@@ -35,7 +35,7 @@ export default function Parallax(props) {
     [classes.parallax]: true,
     [classes[filter + "Color"]]: filter !== undefined,
     [classes.small]: small,
-    [className]: className !== undefined
+    [className]: className !== undefined,
   });
   return (
     <div
@@ -46,6 +46,21 @@ export default function Parallax(props) {
         transform: transform
       }}
     >
+      <picture>
+        <source srcSet="
+                    https://ik.imagekit.io/mastela/tr:w-190/Villa_Encore/64-Photo_64.jpg 190w,
+                    https://ik.imagekit.io/mastela/tr:w-571/Villa_Encore/64-Photo_64.jpg 571w,
+                    https://ik.imagekit.io/mastela/tr:w-785/Villa_Encore/64-Photo_64.jpg 785w,
+                    https://ik.imagekit.io/mastela/tr:w-978/Villa_Encore/64-Photo_64.jpg 978w,
+                    https://ik.imagekit.io/mastela/tr:w-1145/Villa_Encore/64-Photo_64.jpg 1145w,
+                    https://ik.imagekit.io/mastela/tr:w-1303/Villa_Encore/64-Photo_64.jpg 1303w,
+                    https://ik.imagekit.io/mastela/tr:w-1485/Villa_Encore/64-Photo_64.jpg 1485w,
+                    https://ik.imagekit.io/mastela/tr:w-1569/Villa_Encore/64-Photo_64.jpg 1569w,
+                    https://ik.imagekit.io/mastela/tr:w-1718/Villa_Encore/64-Photo_64.jpg 1718w,
+                    https://ik.imagekit.io/mastela/tr:w-1800/Villa_Encore/64-Photo_64.jpg 1800w,
+                    https://ik.imagekit.io/mastela/tr:w-2500/Villa_Encore/64-Photo_64.jpg 2500w"
+                />
+      </picture>
       {children}
     </div>
   );

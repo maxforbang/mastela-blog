@@ -68,7 +68,7 @@ export default function SectionProjects({ ...rest }) {
               >
                 <CardBody background>
                   <h6 className={classes.cardCategory}>PRODUCTIVITY</h6>
-                  <a href="#pablito" onClick={(e) => e.preventDefault()}>
+                  <a href="" onClick={(e) => e.preventDefault()}>
                     <h3 className={classes.cardTitleWhite}>
                       The Best Productivity Apps on Market
                     </h3>
@@ -94,7 +94,7 @@ export default function SectionProjects({ ...rest }) {
               >
                 <CardBody background>
                   <h6 className={classes.cardCategory}>DESIGN</h6>
-                  <a href="#pablito" onClick={(e) => e.preventDefault()}>
+                  <a href="" onClick={(e) => e.preventDefault()}>
                     <h3 className={classes.cardTitleWhite}>
                       The Sculpture Where Details Matter
                     </h3>
@@ -121,7 +121,7 @@ export default function SectionProjects({ ...rest }) {
               >
                 <CardBody background>
                   <h6 className={classes.cardCategory}>MARKETING</h6>
-                  <a href="#pablito" onClick={(e) => e.preventDefault()}>
+                  <a href="" onClick={(e) => e.preventDefault()}>
                     <h3 className={classes.cardTitleWhite}>
                       0 to 100.000 Customers in 6 months
                     </h3>
@@ -327,14 +327,14 @@ export default function SectionProjects({ ...rest }) {
           <GridContainer>
             <GridItem xs={12} sm={5} md={5} className={classes.mlAuto}>
               <Card plain className={classes.card2}>
-                <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <a href="" onClick={(e) => e.preventDefault()}>
                   <CardHeader plain image>
                     <img src="/img/examples/card-project1.jpg" alt="..." />
                   </CardHeader>
                 </a>
                 <CardBody>
                   <h6 className={classes.cardCategory}>WEB DESIGN</h6>
-                  <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                  <a href="" onClick={(e) => e.preventDefault()}>
                     <h4 className={classes.cardTitle}>
                       Famous Website Redesign
                     </h4>
@@ -348,14 +348,14 @@ export default function SectionProjects({ ...rest }) {
             </GridItem>
             <GridItem xs={12} sm={5} md={5} className={classes.mrAuto}>
               <Card plain className={classes.card2}>
-                <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <a href="" onClick={(e) => e.preventDefault()}>
                   <CardHeader plain image>
                     <img src="/img/examples/card-project2.jpg" alt="..." />
                   </CardHeader>
                 </a>
                 <CardBody>
                   <h6 className={classes.cardCategory}>PRODUCTIVITY TOOLS</h6>
-                  <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                  <a href="" onClick={(e) => e.preventDefault()}>
                     <h4 className={classes.cardTitle}>
                       Beautiful Desktop for Designers
                     </h4>
@@ -369,14 +369,14 @@ export default function SectionProjects({ ...rest }) {
             </GridItem>
             <GridItem xs={12} sm={5} md={5} className={classes.mlAuto}>
               <Card plain className={classes.card2}>
-                <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <a href="" onClick={(e) => e.preventDefault()}>
                   <CardHeader plain image>
                     <img src="/img/examples/card-project3.jpg" alt="..." />
                   </CardHeader>
                 </a>
                 <CardBody>
                   <h6 className={classes.cardCategory}>ANDROID APP</h6>
-                  <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                  <a href="" onClick={(e) => e.preventDefault()}>
                     <h4 className={classes.cardTitle}>Analytics for Android</h4>
                   </a>
                   <p className={classes.cardDescription}>
@@ -388,14 +388,14 @@ export default function SectionProjects({ ...rest }) {
             </GridItem>
             <GridItem xs={12} sm={5} md={5} className={classes.mrAuto}>
               <Card plain className={classes.card2}>
-                <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <a href="" onClick={(e) => e.preventDefault()}>
                   <CardHeader plain image>
                     <img src="/img/examples/card-project4.jpg" alt="..." />
                   </CardHeader>
                 </a>
                 <CardBody>
                   <h6 className={classes.cardCategory}>WEBSITE</h6>
-                  <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                  <a href="" onClick={(e) => e.preventDefault()}>
                     <h4 className={classes.cardTitle}>Behance Redesign</h4>
                   </a>
                   <p className={classes.cardDescription}>
@@ -443,7 +443,7 @@ export default function SectionProjects({ ...rest }) {
               >
                 <CardBody background className={classes.cardBody4}>
                   <Badge color="rose">Client: Apple</Badge>
-                  <a href="#pablo" onClick={(e) => e.preventDefault}>
+                  <a href="" onClick={(e) => e.preventDefault}>
                     <h3 className={classes.cardTitle}>Beautiful Project</h3>
                     <p className={classes.cardDescription}>
                       Don{"'"}t be scared of the truth because we need to
@@ -512,7 +512,7 @@ export default function SectionProjects({ ...rest }) {
               >
                 <CardBody background className={classes.cardBody4}>
                   <Badge color="rose">CLIENT: DJ KHALED</Badge>
-                  <a href="#pablo" onClick={(e) => e.preventDefault}>
+                  <a href="" onClick={(e) => e.preventDefault}>
                     <h3 className={classes.cardTitle}>Another One</h3>
                     <p className={classes.cardDescription}>
                       Don{"'"}t be scared of the truth because we need to

@@ -894,12 +894,12 @@ export default function SectionProducts() {
               <GridItem md={4} sm={4}>
                 <Card plain product>
                   <CardHeader noShadow image>
-                    <a href="#pablo">
+                    <a href="">
                       <img src="/img/examples/suit-1.jpg" alt=".." />
                     </a>
                   </CardHeader>
                   <CardBody plain>
-                    <a href="#pablo">
+                    <a href="">
                       <h4 className={classes.cardTitle}>Polo Ralph Lauren</h4>
                     </a>
                     <p className={classes.description}>
@@ -931,12 +931,12 @@ export default function SectionProducts() {
               <GridItem md={4} sm={4}>
                 <Card plain product>
                   <CardHeader noShadow image>
-                    <a href="#pablo">
+                    <a href="">
                       <img src="/img/examples/suit-2.jpg" alt=".." />
                     </a>
                   </CardHeader>
                   <CardBody plain>
-                    <a href="#pablo">
+                    <a href="">
                       <h4 className={classes.cardTitle}>Wooyoungmi</h4>
                     </a>
                     <p className={classes.description}>
@@ -968,12 +968,12 @@ export default function SectionProducts() {
               <GridItem md={4} sm={4}>
                 <Card plain product>
                   <CardHeader noShadow image>
-                    <a href="#pablo">
+                    <a href="">
                       <img src="/img/examples/suit-3.jpg" alt=".." />
                     </a>
                   </CardHeader>
                   <CardBody plain>
-                    <a href="#pablo">
+                    <a href="">
                       <h4 className={classes.cardTitle}>Tom Ford</h4>
                     </a>
                     <p className={classes.description}>
@@ -1005,12 +1005,12 @@ export default function SectionProducts() {
               <GridItem md={4} sm={4}>
                 <Card plain product>
                   <CardHeader noShadow image>
-                    <a href="#pablo">
+                    <a href="">
                       <img src="/img/examples/suit-4.jpg" alt=".." />
                     </a>
                   </CardHeader>
                   <CardBody plain>
-                    <a href="#pablo">
+                    <a href="">
                       <h4 className={classes.cardTitle}>Thom Sweeney</h4>
                     </a>
                     <p className={classes.description}>
@@ -1042,12 +1042,12 @@ export default function SectionProducts() {
               <GridItem md={4} sm={4}>
                 <Card plain product>
                   <CardHeader noShadow image>
-                    <a href="#pablo">
+                    <a href="">
                       <img src="/img/examples/suit-5.jpg" alt=".." />
                     </a>
                   </CardHeader>
                   <CardBody plain>
-                    <a href="#pablo">
+                    <a href="">
                       <h4 className={classes.cardTitle}>Kingsman</h4>
                     </a>
                     <p className={classes.description}>
@@ -1079,12 +1079,12 @@ export default function SectionProducts() {
               <GridItem md={4} sm={4}>
                 <Card plain product>
                   <CardHeader noShadow image>
-                    <a href="#pablo">
+                    <a href="">
                       <img src="/img/examples/suit-6.jpg" alt=".." />
                     </a>
                   </CardHeader>
                   <CardBody plain>
-                    <a href="#pablo">
+                    <a href="">
                       <h4 className={classes.cardTitle}>Boglioli</h4>
                     </a>
                     <p className={classes.description}>
@@ -1139,7 +1139,7 @@ export default function SectionProducts() {
                 >
                   Productivity Apps
                 </h6>
-                <a href="#pablo">
+                <a href="">
                   <h3 className={classes.cardTitle}>
                     The best trends in fashion {new Date().getFullYear()}
                   </h3>
@@ -1166,7 +1166,7 @@ export default function SectionProducts() {
                 >
                   FASHION NEWS
                 </h6>
-                <a href="#pablo">
+                <a href="">
                   <h3 className={classes.cardTitle}>
                     Kanye joins the Yeezy team at Adidas
                   </h3>
@@ -1193,7 +1193,7 @@ export default function SectionProducts() {
                 >
                   Productivity Apps
                 </h6>
-                <a href="#pablo">
+                <a href="">
                   <h3 className={classes.cardTitle}>
                     Learn how to use the new colors of{" "}
                     {new Date().getFullYear()}
@@ -1218,7 +1218,7 @@ export default function SectionProducts() {
                 >
                   Tutorials
                 </h6>
-                <a href="#pablo">
+                <a href="">
                   <h3 className={classes.cardTitle}>
                     Trending colors of {new Date().getFullYear()}
                   </h3>
@@ -1242,7 +1242,7 @@ export default function SectionProducts() {
                 >
                   Productivity Style
                 </h6>
-                <a href="#pablo">
+                <a href="">
                   <h3 className={classes.cardTitle}>
                     Fashion & Style {new Date().getFullYear()}
                   </h3>

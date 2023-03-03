@@ -41,7 +41,7 @@ export default function SectionPreFooter() {
             <Button
               color="twitter"
               round
-              href="#pablo"
+              href=""
               onClick={(e) => e.preventDefault()}
             >
               <i className="fab fa-twitter" /> Twitter · 2.5K
@@ -49,7 +49,7 @@ export default function SectionPreFooter() {
             <Button
               color="facebook"
               round
-              href="#pablo"
+              href=""
               onClick={(e) => e.preventDefault()}
             >
               <i className="fab fa-facebook" /> Facebook · 3.2k
@@ -57,7 +57,7 @@ export default function SectionPreFooter() {
             <Button
               color="google"
               round
-              href="#pablo"
+              href=""
               onClick={(e) => e.preventDefault()}
             >
               <i className="fab fa-google-plus-g" /> Google · 1.2k
@@ -65,7 +65,7 @@ export default function SectionPreFooter() {
             <Button
               color="dribbble"
               round
-              href="#pablo"
+              href=""
               onClick={(e) => e.preventDefault()}
             >
               <i className="fab fa-dribbble" /> Dribbble · 1.8k
@@ -90,7 +90,7 @@ export default function SectionPreFooter() {
                 color="twitter"
                 justIcon
                 simple
-                href="#pablo"
+                href=""
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fab fa-twitter" />
@@ -101,7 +101,7 @@ export default function SectionPreFooter() {
                 color="facebook"
                 justIcon
                 simple
-                href="#pablo"
+                href=""
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fab fa-facebook" />
@@ -112,7 +112,7 @@ export default function SectionPreFooter() {
                 color="google"
                 justIcon
                 simple
-                href="#pablo"
+                href=""
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fab fa-google-plus-g" />
@@ -123,7 +123,7 @@ export default function SectionPreFooter() {
                 color="dribbble"
                 justIcon
                 simple
-                href="#pablo"
+                href=""
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fab fa-dribbble" />
@@ -134,7 +134,7 @@ export default function SectionPreFooter() {
                 color="youtube"
                 justIcon
                 simple
-                href="#pablo"
+                href=""
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fab fa-youtube" />
@@ -145,7 +145,7 @@ export default function SectionPreFooter() {
                 color="instagram"
                 justIcon
                 simple
-                href="#pablo"
+                href=""
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fab fa-instagram" />
@@ -171,7 +171,7 @@ export default function SectionPreFooter() {
                 color="white"
                 justIcon
                 simple
-                href="#pablo"
+                href=""
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fab fa-twitter" />
@@ -182,7 +182,7 @@ export default function SectionPreFooter() {
                 color="white"
                 justIcon
                 simple
-                href="#pablo"
+                href=""
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fab fa-facebook" />
@@ -193,7 +193,7 @@ export default function SectionPreFooter() {
                 color="white"
                 justIcon
                 simple
-                href="#pablo"
+                href=""
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fab fa-google-plus-g" />
@@ -204,7 +204,7 @@ export default function SectionPreFooter() {
                 color="white"
                 justIcon
                 simple
-                href="#pablo"
+                href=""
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fab fa-dribbble" />
@@ -215,7 +215,7 @@ export default function SectionPreFooter() {
                 color="white"
                 justIcon
                 simple
-                href="#pablo"
+                href=""
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fab fa-youtube" />
@@ -226,7 +226,7 @@ export default function SectionPreFooter() {
                 color="white"
                 justIcon
                 simple
-                href="#pablo"
+                href=""
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fab fa-instagram" />

@@ -123,6 +123,7 @@ export default function CustomDropdown(props) {
           aria-haspopup="true"
           {...buttonProps}
           onClick={handleClick}
+          onMouseEnter={handleClick}
         >
           {buttonIcon !== undefined ? (
             <props.buttonIcon className={classes.buttonIcon} />

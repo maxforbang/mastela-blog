@@ -181,7 +181,10 @@ const parallaxStyle = {
     height: "65vh",
     minHeight: "65vh",
     maxHeight: "650px"
-  }
+  },
+  bgImg: {
+
+}
 };
 
 export default parallaxStyle;

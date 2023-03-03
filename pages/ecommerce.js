@@ -162,7 +162,7 @@ export default function EcommercePage() {
                 </ListItem>
                 <ListItem className={classes.inlineBlock}>
                   <a
-                    href="#pablito"
+                    href=""
                     onClick={(e) => e.preventDefault()}
                     className={classes.block}
                   >
@@ -171,7 +171,7 @@ export default function EcommercePage() {
                 </ListItem>
                 <ListItem className={classes.inlineBlock}>
                   <a
-                    href="#pablito"
+                    href=""
                     onClick={(e) => e.preventDefault()}
                     className={classes.block}
                   >

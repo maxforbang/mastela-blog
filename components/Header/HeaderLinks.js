@@ -43,6 +43,7 @@ import CustomDropdown from "/components/CustomDropdown/CustomDropdown.js";
 import Button from "/components/CustomButtons/Button.js";
 
 import styles from "/styles/jss/nextjs-material-kit-pro/components/headerLinksStyle.js";
+import {Box} from "@mui/material";
 
 const useStyles = makeStyles(styles);
 
@@ -95,219 +96,64 @@ export default function HeaderLinks(props) {
           noLiPadding
           navDropdown
           hoverColor={dropdownHoverColor}
-          buttonText="Components"
+          buttonText="Our Villas"
           buttonProps={{
             className: classes.navLink,
             color: "transparent"
           }}
-          buttonIcon={Apps}
+          // buttonIcon={Apps}
           dropdownList={[
-            <Link href="/presentation">
+            <Link href="https://mastelavacations.com/vacation-rental.php?unit=kXP7xGVm9j">
               <a className={classes.dropdownLink}>
-                <LineStyle className={classes.dropdownIcons} /> Presentation
-                Page
+                Villa Encore
               </a>
             </Link>,
-            <Link href="/components">
+            <Link href="https://mastelavacations.com/vacation-rental.php?unit=j7oxO1ENyz">
               <a className={classes.dropdownLink}>
-                <Layers className={classes.dropdownIcons} />
-                All components
+                The Twins Villa
+              </a>
+            </Link>,
+            <Link href="https://mastelavacations.com/vacation-rental.php?unit=Q3o9p91N0E">
+              <a className={classes.dropdownLink}>
+                Villa Aviator
               </a>
             </Link>,
             <a
-              href="https://demos.creative-tim.com/nextjs-material-kit-pro/documentation/tutorial?ref=njsmkp-navbar"
+              href="https://mastelavacations.com/vacation-rental.php?unit=kMobVMAoQD"
               target="_blank"
               className={classes.dropdownLink}
             >
-              <Icon className={classes.dropdownIcons}>content_paste</Icon>
-              Documentation
+              Maya Serenity
             </a>
           ]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
-        <CustomDropdown
-          noLiPadding
-          navDropdown
-          hoverColor={dropdownHoverColor}
-          buttonText="Sections"
-          buttonProps={{
-            className: classes.navLink,
-            color: "transparent"
-          }}
-          buttonIcon={ViewDay}
-          dropdownList={[
-            <Link href="/sections#headers">
-              <a
-                className={classes.dropdownLink}
-                onClick={(e) => smoothScroll(e, "headers")}
-              >
-                <Dns className={classes.dropdownIcons} /> Headers
-              </a>
-            </Link>,
-            <Link href="/sections#features">
-              <a
-                className={classes.dropdownLink}
-                onClick={(e) => smoothScroll(e, "features")}
-              >
-                <Build className={classes.dropdownIcons} /> Features
-              </a>
-            </Link>,
-            <Link href="/sections#blogs">
-              <a
-                className={classes.dropdownLink}
-                onClick={(e) => smoothScroll(e, "blogs")}
-              >
-                <ListIcon className={classes.dropdownIcons} /> Blogs
-              </a>
-            </Link>,
-            <Link href="/sections#teams">
-              <a
-                className={classes.dropdownLink}
-                onClick={(e) => smoothScroll(e, "teams")}
-              >
-                <People className={classes.dropdownIcons} /> Teams
-              </a>
-            </Link>,
-            <Link href="/sections#projects">
-              <a
-                className={classes.dropdownLink}
-                onClick={(e) => smoothScroll(e, "projects")}
-              >
-                <Assignment className={classes.dropdownIcons} /> Projects
-              </a>
-            </Link>,
-            <Link href="/sections#pricing">
-              <a
-                className={classes.dropdownLink}
-                onClick={(e) => smoothScroll(e, "pricing")}
-              >
-                <MonetizationOn className={classes.dropdownIcons} /> Pricing
-              </a>
-            </Link>,
-            <Link href="/sections#testimonials">
-              <a
-                className={classes.dropdownLink}
-                onClick={(e) => smoothScroll(e, "testimonials")}
-              >
-                <Chat className={classes.dropdownIcons} /> Testimonials
-              </a>
-            </Link>,
-            <Link href="/sections#contacts">
-              <a
-                className={classes.dropdownLink}
-                onClick={(e) => smoothScroll(e, "contacts")}
-              >
-                <Call className={classes.dropdownIcons} /> Contacts
-              </a>
-            </Link>
-          ]}
-        />
+        <Box className={classes.navLink}>
+          <Link href="/cape-coral-guide">
+            <a className={classes.dropdownLink}>
+              Local Area Guide
+            </a>
+          </Link>
+        </Box>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <CustomDropdown
-          noLiPadding
-          navDropdown
-          hoverColor={dropdownHoverColor}
-          buttonText="Examples"
-          buttonProps={{
-            className: classes.navLink,
-            color: "transparent"
-          }}
-          buttonIcon={ViewCarousel}
-          dropdownList={[
-            <Link href="/about-us">
-              <a className={classes.dropdownLink}>
-                <AccountBalance className={classes.dropdownIcons} /> About Us
-              </a>
-            </Link>,
-            <Link href="/blog-post">
-              <a className={classes.dropdownLink}>
-                <ArtTrack className={classes.dropdownIcons} /> Blog Post
-              </a>
-            </Link>,
-            <Link href="/blog-posts">
-              <a className={classes.dropdownLink}>
-                <ViewQuilt className={classes.dropdownIcons} /> Blog Posts
-              </a>
-            </Link>,
-            <Link href="/contact-us">
-              <a className={classes.dropdownLink}>
-                <LocationOn className={classes.dropdownIcons} /> Contact Us
-              </a>
-            </Link>,
-            <Link href="/landing-page">
-              <a className={classes.dropdownLink}>
-                <ViewDay className={classes.dropdownIcons} /> Landing Page
-              </a>
-            </Link>,
-            <Link href="/login">
-              <a className={classes.dropdownLink}>
-                <Fingerprint className={classes.dropdownIcons} /> Login Page
-              </a>
-            </Link>,
-            <Link href="/pricing">
-              <a className={classes.dropdownLink}>
-                <AttachMoney className={classes.dropdownIcons} /> Pricing Page
-              </a>
-            </Link>,
-            <Link href="/shopping-cart">
-              <a className={classes.dropdownLink}>
-                <ShoppingBasket className={classes.dropdownIcons} /> Shopping
-                Cart
-              </a>
-            </Link>,
-            <Link href="/ecommerce">
-              <a className={classes.dropdownLink}>
-                <Store className={classes.dropdownIcons} /> Ecommerce Page
-              </a>
-            </Link>,
-            <Link href="/product">
-              <a className={classes.dropdownLink}>
-                <ShoppingCart className={classes.dropdownIcons} /> Product Page
-              </a>
-            </Link>,
-            <Link href="/profile">
-              <a className={classes.dropdownLink}>
-                <AccountCircle className={classes.dropdownIcons} /> Profile Page
-              </a>
-            </Link>,
-            <Link href="/signup">
-              <a className={classes.dropdownLink}>
-                <PersonAdd className={classes.dropdownIcons} /> Signup Page
-              </a>
-            </Link>,
-            <Link href="/error-page">
-              <a className={classes.dropdownLink}>
-                <Error className={classes.dropdownIcons} /> Error Page
-              </a>
-            </Link>
-          ]}
-        />
+        <Box className={classes.navLink}>
+          <Link href="https://mastelavacations.com/contact-us.html">
+            <a className={classes.dropdownLink}>
+              Contact Us
+            </a>
+          </Link>
+        </Box>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Hidden lgDown>
-          <Button
-            href="https://www.creative-tim.com/product/nextjs-material-kit-pro?ref=njsmkp-navbar"
-            color={"white"}
-            target="_blank"
-            className={classes.navButton}
-            round
-          >
-            <ShoppingCart className={classes.icons} /> buy now
-          </Button>
-        </Hidden>
-        <Hidden mdUp>
-          <Button
-            href="https://www.creative-tim.com/product/nextjs-material-kit-pro?ref=njsmkp-navbar"
-            color={"info"}
-            target="_blank"
-            className={classes.navButton}
-            round
-          >
-            <ShoppingCart className={classes.icons} /> buy now
-          </Button>
-        </Hidden>
+        <Box className={classes.navLink}>
+          <Link href="tel:+1(813)9957240">
+            <a className={classes.dropdownLink}>
+              +1 (813) 995 7240
+            </a>
+          </Link>
+        </Box>
       </ListItem>
     </List>
   );

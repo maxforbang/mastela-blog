@@ -111,7 +111,7 @@ export default function SectionFeatures({ ...rest }) {
                       felt anything like it. With a single use, this powerfull
                       UI Kit lets you do more than ever before.
                     </p>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="" onClick={(e) => e.preventDefault()}>
                       Find more...
                     </a>
                   </span>
@@ -130,7 +130,7 @@ export default function SectionFeatures({ ...rest }) {
                       parts. Write a few lines about each one. A paragraph
                       describing a feature will be enough.
                     </p>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="" onClick={(e) => e.preventDefault()}>
                       Find more...
                     </a>
                   </span>
@@ -149,7 +149,7 @@ export default function SectionFeatures({ ...rest }) {
                       parts. Write a few lines about each one. A paragraph
                       describing a feature will be enough.
                     </p>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="" onClick={(e) => e.preventDefault()}>
                       Find more...
                     </a>
                   </span>

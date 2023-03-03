@@ -13,7 +13,7 @@ import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
 import Parallax from "/components/Parallax/Parallax.js";
 // sections for this page
-import SectionPills from "/pages-sections/blog-posts/SectionPills.js";
+import BlogPostsList from "/components/Blog/BlogPostsList.js";
 import SectionInterested from "/pages-sections/blog-posts/SectionInterested.js";
 import SectionImage from "/pages-sections/blog-posts/SectionImage.js";
 import SubscribeLine from "/pages-sections/blog-posts/SubscribeLine.js";
@@ -53,7 +53,6 @@ export default function BlogPostsPage() {
       </Parallax>
       <div className={classes.main}>
         <div className={classes.container}>
-          <SectionPills />
           <SectionInterested />
         </div>
         <SectionImage />

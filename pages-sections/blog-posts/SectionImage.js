@@ -20,7 +20,7 @@ export default function SectionImage() {
   return (
     <div
       className={classes.section}
-      style={{ backgroundImage: "url('/img/bg10.jpg')" }}
+      style={{ backgroundImage: "url('/img/blog/tropical_sunset.jpg')" }}
     >
       <div className={classes.container}>
         <GridContainer>
@@ -29,9 +29,11 @@ export default function SectionImage() {
               <GridContainer>
                 <GridItem xs={12} sm={5} md={5}>
                   <CardHeader image plain>
-                    <a href="#pablo">
+                    <a href="">
                       <img
-                        src="/img/faces/card-profile1-square.jpg"
+                          objectFit='cover'
+                          max
+                        src="/img/blog/thomas_photo.jpeg"
                         alt="..."
                       />
                     </a>
@@ -39,23 +41,22 @@ export default function SectionImage() {
                 </GridItem>
                 <GridItem xs={12} sm={7} md={7}>
                   <CardBody plain>
-                    <h4 className={classes.cardTitle}>Alec Thompson</h4>
+                    <h4 className={classes.cardTitle}>Thomas Forbang</h4>
                     <Muted>
-                      <h6>AUTHOR OF THE MONTH</h6>
+                      <h6>CO-FOUNDER / REAL ESTATE AGENT</h6>
                     </Muted>
-                    <p className={classes.description}>
-                      Don{"'"}t be scared of the truth because we need to
-                      restart the human foundation in truth...
+                    <p className={classes.description} >
+                      After being duped by multiple vacation rental management companies in the past, Thomas made it his driving mission to create a management company that focused on trust and full transparency each property owner.
                     </p>
                   </CardBody>
                   <CardFooter profile plain>
-                    <Button justIcon simple color="white" href="#pablo">
+                    <Button justIcon simple color="white" href="">
                       <i className="fab fa-twitter" />
                     </Button>
-                    <Button justIcon simple color="white" href="#pablo">
+                    <Button justIcon simple color="white" href="">
                       <i className="fab fa-facebook-square" />
                     </Button>
-                    <Button justIcon simple color="white" href="#pablo">
+                    <Button justIcon simple color="white" href="">
                       <i className="fab fa-google" />
                     </Button>
                   </CardFooter>
@@ -68,9 +69,9 @@ export default function SectionImage() {
               <GridContainer>
                 <GridItem xs={12} sm={5} md={5}>
                   <CardHeader image plain>
-                    <a href="#pablo">
+                    <a href="">
                       <img
-                        src="/img/faces/card-profile4-square.jpg"
+                        src="/img/blog/anna_photo.jpeg"
                         alt="..."
                       />
                     </a>
@@ -78,26 +79,25 @@ export default function SectionImage() {
                 </GridItem>
                 <GridItem xs={12} sm={7} md={7}>
                   <CardBody plain>
-                    <h4 className={classes.cardTitle}>Kendall Andrew</h4>
+                    <h4 className={classes.cardTitle}>Anna Chernyavskaya</h4>
                     <Muted>
-                      <h6>AUTHOR OF THE WEEK</h6>
+                      <h6>Co-Founder / CFO</h6>
                     </Muted>
                     <p className={classes.description}>
-                      Don{"'"}t be scared of the truth because we need to
-                      restart the human foundation in truth...
+                      Being the owner of a business and dedicated mom of 2 daughters, Anna's committed to making sure every guest is taken care of from the moment they inquire about a booking to the moment they leave.
                     </p>
                   </CardBody>
                   <CardFooter profile plain>
-                    <Button justIcon simple color="white" href="#pablo">
+                    <Button justIcon simple color="white" href="">
                       <i className="fab fa-linkedin-in" />
                     </Button>
-                    <Button justIcon simple color="white" href="#pablo">
+                    <Button justIcon simple color="white" href="">
                       <i className="fab fa-facebook-square" />
                     </Button>
-                    <Button justIcon simple color="white" href="#pablo">
+                    <Button justIcon simple color="white" href="">
                       <i className="fab fa-dribbble" />
                     </Button>
-                    <Button justIcon simple color="white" href="#pablo">
+                    <Button justIcon simple color="white" href="">
                       <i className="fab fa-google" />
                     </Button>
                   </CardFooter>

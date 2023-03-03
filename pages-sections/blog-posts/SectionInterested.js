@@ -28,7 +28,7 @@ export default function SectionInterested() {
         <GridItem xs={12} sm={4} md={4} lg={4} xl={4}>
           <Card plain blog>
             <CardHeader image plain>
-              <a href="#pablo">
+              <a href="">
                 <img src="/img/bg5.jpg" alt="..." />
               </a>
               <div
@@ -44,7 +44,7 @@ export default function SectionInterested() {
                 <h6>ENTERPRISE</h6>
               </Info>
               <h4 className={classes.cardTitle}>
-                <a href="#pablo">
+                <a href="">
                   Autodesk looks to future of 3D printing with Project Escher
                 </a>
               </h4>
@@ -52,7 +52,7 @@ export default function SectionInterested() {
                 Like so many organizations these days, Autodesk is a company in
                 transition. It was until recently a traditional boxed software
                 company selling licenses.
-                <a href="#pablo"> Read More </a>
+                <a href=""> Read More </a>
               </p>
             </CardBody>
           </Card>
@@ -60,7 +60,7 @@ export default function SectionInterested() {
         <GridItem xs={12} sm={4} md={4} lg={4} xl={4}>
           <Card plain blog>
             <CardHeader plain image>
-              <a href="#pablo">
+              <a href="">
                 <img src="/img/examples/blog5.jpg" alt="..." />
               </a>
               <div
@@ -76,7 +76,7 @@ export default function SectionInterested() {
                 <h6>STARTUPS</h6>
               </Success>
               <h4 className={classes.cardTitle}>
-                <a href="#pablo">
+                <a href="">
                   Lyft launching cross-platform service this week
                 </a>
               </h4>
@@ -84,7 +84,7 @@ export default function SectionInterested() {
                 Like so many organizations these days, Autodesk is a company in
                 transition. It was until recently a traditional boxed software
                 company selling licenses.
-                <a href="#pablo"> Read More </a>
+                <a href=""> Read More </a>
               </p>
             </CardBody>
           </Card>
@@ -92,7 +92,7 @@ export default function SectionInterested() {
         <GridItem xs={12} sm={4} md={4} lg={4} xl={4}>
           <Card plain blog>
             <CardHeader plain image>
-              <a href="#pablo">
+              <a href="">
                 <img src="/img/examples/blog6.jpg" alt="..." />
               </a>
               <div
@@ -110,7 +110,7 @@ export default function SectionInterested() {
                 </h6>
               </Danger>
               <h4 className={classes.cardTitle}>
-                <a href="#pablo">
+                <a href="">
                   6 insights into the French Fashion landscape
                 </a>
               </h4>
@@ -118,7 +118,7 @@ export default function SectionInterested() {
                 Like so many organizations these days, Autodesk is a company in
                 transition. It was until recently a traditional boxed software
                 company selling licenses.
-                <a href="#pablo"> Read More </a>
+                <a href=""> Read More </a>
               </p>
             </CardBody>
           </Card>

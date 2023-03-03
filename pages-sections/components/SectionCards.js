@@ -93,7 +93,7 @@ export default function SectionCards() {
                 <GridItem xs={12} sm={6} md={6} lg={4}>
                   <Card blog>
                     <CardHeader image>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <img src="/img/examples/card-blog1.jpg" alt="..." />
                         <div className={classes.cardTitleAbsolute}>
                           This Summer Will be Awesome
@@ -127,7 +127,7 @@ export default function SectionCards() {
                         Twitter
                       </h5>
                       <h4 className={classes.cardTitleWhite}>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           {'"'}You Don{"'"}t Have to Sacrifice Joy to Build a
                           Fabulous Business and Life{'"'}
                         </a>
@@ -135,7 +135,7 @@ export default function SectionCards() {
                     </CardBody>
                     <CardFooter>
                       <div className={classes.authorWhite}>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           <img
                             src="/img/faces/avatar.jpg"
                             alt="..."
@@ -164,14 +164,14 @@ export default function SectionCards() {
                         </h6>
                       </Danger>
                       <h4 className={classes.cardTitle}>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           To Grow Your Business Start Focusing on Your Employees
                         </a>
                       </h4>
                     </CardBody>
                     <CardFooter>
                       <div className={classes.author}>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           <img
                             src="/img/faces/christian.jpg"
                             alt="..."
@@ -190,7 +190,7 @@ export default function SectionCards() {
                   </Card>
                   <Card blog>
                     <CardHeader image>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <img src="/img/examples/card-blog2.jpg" alt="..." />
                       </a>
                       <div
@@ -207,7 +207,7 @@ export default function SectionCards() {
                         <h6 className={classes.cardCategory}>Legal</h6>
                       </Success>
                       <h4 className={classes.cardTitle}>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           5 Common Legal Mistakes That Can Trip-Up Your Startup
                         </a>
                       </h4>
@@ -220,7 +220,7 @@ export default function SectionCards() {
                     </CardBody>
                     <CardFooter>
                       <div className={classes.author}>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           <img
                             src="/img/faces/marc.jpg"
                             alt="..."
@@ -238,7 +238,7 @@ export default function SectionCards() {
                 <GridItem xs={12} sm={6} md={6} lg={4}>
                   <Card blog>
                     <CardHeader image>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <img src="/img/examples/blog8.jpg" alt="..." />
                       </a>
                       <div
@@ -256,14 +256,14 @@ export default function SectionCards() {
                         </h6>
                       </Danger>
                       <h4 className={classes.cardTitle}>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           To Grow Your Business Start Focusing on Your Employees
                         </a>
                       </h4>
                     </CardBody>
                     <CardFooter>
                       <div className={classes.author}>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           <img
                             src="/img/faces/marc.jpg"
                             alt="..."
@@ -284,7 +284,7 @@ export default function SectionCards() {
                         TechCrunch
                       </h5>
                       <h4 className={classes.cardTitleWhite}>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           {'"'}Focus on Your Employees{'"'}
                         </a>
                       </h4>
@@ -320,7 +320,7 @@ export default function SectionCards() {
                 <GridItem xs={12} sm={4} md={4}>
                   <Card profile>
                     <CardHeader image>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <img src="/img/examples/card-profile4.jpg" alt="..." />
                         <div className={classes.cardTitleAbsolute}>
                           Tania Andrew
@@ -365,7 +365,7 @@ export default function SectionCards() {
                 <GridItem xs={12} sm={4} md={4}>
                   <Card profile>
                     <CardHeader image>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <img src="/img/examples/card-profile1.jpg" alt="..." />
                       </a>
                       <div
@@ -406,7 +406,7 @@ export default function SectionCards() {
                 <GridItem xs={12} sm={4} md={4}>
                   <Card profile>
                     <CardAvatar profile>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <img src="/img/faces/marc.jpg" alt="..." />
                       </a>
                     </CardAvatar>
@@ -453,7 +453,7 @@ export default function SectionCards() {
                       <h6 className={classes.cardCategoryWhite}>
                         PRODUCTIVITY APPS
                       </h6>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <h3 className={classes.cardTitleWhite}>
                           The Best Productivity Apps on Market
                         </h3>
@@ -482,7 +482,7 @@ export default function SectionCards() {
                   >
                     <CardBody background>
                       <h6 className={classes.cardCategoryWhite}>MATERIALS</h6>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <h3 className={classes.cardTitleWhite}>
                           The Sculpture Where Details Matter
                         </h3>
@@ -672,7 +672,7 @@ export default function SectionCards() {
                         <h6 className={classes.cardCategoryWhite}>
                           Full Background Card
                         </h6>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           <h3 className={classes.cardTitleWhite}>
                             This Background Card Will Rotate on Hover
                           </h3>
@@ -725,7 +725,7 @@ export default function SectionCards() {
                           </h5>
                         </Success>
                         <h4 className={classes.cardTitle}>
-                          <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                          <a href="" onClick={(e) => e.preventDefault()}>
                             This Card is Doing a Full Rotation on Hover...
                           </a>
                         </h4>
@@ -772,7 +772,7 @@ export default function SectionCards() {
                           <i className="fab fa-dribbble" /> Dribbble
                         </h5>
                         <h4 className={classes.cardTitleWhite}>
-                          <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                          <a href="" onClick={(e) => e.preventDefault()}>
                             {'"'}Dribbble just acquired Crew, a very interesting
                             startup...{'"'}
                           </a>
@@ -786,7 +786,7 @@ export default function SectionCards() {
                       </CardBody>
                       <CardFooter>
                         <div className={classes.authorWhite}>
-                          <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                          <a href="" onClick={(e) => e.preventDefault()}>
                             <img
                               src="/img/faces/avatar.jpg"
                               alt="..."
@@ -813,7 +813,7 @@ export default function SectionCards() {
                           <i className="fab fa-dribbble" /> Dribbble
                         </h5>
                         <h4 className={classes.cardTitleWhite}>
-                          <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                          <a href="" onClick={(e) => e.preventDefault()}>
                             {'"'}Dribbble just acquired Crew, a very interesting
                             startup...{'"'}
                           </a>
@@ -856,7 +856,7 @@ export default function SectionCards() {
                           </h5>
                         </Success>
                         <h4 className={classes.cardTitle}>
-                          <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                          <a href="" onClick={(e) => e.preventDefault()}>
                             {'"'}This card is doing a full rotation, click on
                             the rotate button{'"'}
                           </a>
@@ -933,7 +933,7 @@ export default function SectionCards() {
                         <h6 className={classes.cardCategoryWhite}>
                           Full Background Card
                         </h6>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           <h3 className={classes.cardTitleWhite}>
                             This card is doing a full rotation, click on the
                             rotate button
@@ -1012,7 +1012,7 @@ export default function SectionCards() {
                           <Receipt /> Manual Rotating Card
                         </h5>
                         <h4 className={classes.cardTitleWhite}>
-                          <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                          <a href="" onClick={(e) => e.preventDefault()}>
                             {'"'}This card is doing a full rotation, click on
                             the rotate button{'"'}
                           </a>
@@ -1097,7 +1097,7 @@ export default function SectionCards() {
             <GridItem xs={12} sm={4} md={4}>
               <Card blog>
                 <CardHeader image>
-                  <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                  <a href="" onClick={(e) => e.preventDefault()}>
                     <img src="/img/examples/color1.jpg" alt="..." />
                   </a>
                   <div
@@ -1113,7 +1113,7 @@ export default function SectionCards() {
                     <h6 className={classes.cardCategory}>DYNAMIC SHADOWS</h6>
                   </Warning>
                   <h4 className={classes.cardTitle}>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="" onClick={(e) => e.preventDefault()}>
                       The image from this card is getting a yellow shadow
                     </a>
                   </h4>
@@ -1123,7 +1123,7 @@ export default function SectionCards() {
             <GridItem xs={12} sm={4} md={4}>
               <Card blog>
                 <CardHeader image>
-                  <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                  <a href="" onClick={(e) => e.preventDefault()}>
                     <img src="/img/examples/color2.jpg" alt="..." />
                   </a>
                   <div
@@ -1139,7 +1139,7 @@ export default function SectionCards() {
                     <h6 className={classes.cardCategory}>DYNAMIC SHADOWS</h6>
                   </Rose>
                   <h4 className={classes.cardTitle}>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="" onClick={(e) => e.preventDefault()}>
                       The image from this card is getting a pink shadow
                     </a>
                   </h4>
@@ -1149,7 +1149,7 @@ export default function SectionCards() {
             <GridItem xs={12} sm={4} md={4}>
               <Card blog>
                 <CardHeader image>
-                  <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                  <a href="" onClick={(e) => e.preventDefault()}>
                     <img src="/img/examples/color3.jpg" alt="..." />
                   </a>
                   <div
@@ -1165,7 +1165,7 @@ export default function SectionCards() {
                     <h6 className={classes.cardCategory}>DYNAMIC SHADOWS</h6>
                   </Info>
                   <h4 className={classes.cardTitle}>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="" onClick={(e) => e.preventDefault()}>
                       The image from this card is getting a blue shadow
                     </a>
                   </h4>
@@ -1187,7 +1187,7 @@ export default function SectionCards() {
               <GridItem xs={12} sm={6} md={6} lg={4}>
                 <Card blog plain>
                   <CardHeader image plain>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="" onClick={(e) => e.preventDefault()}>
                       <img src="/img/examples/blog5.jpg" alt="..." />
                       <div className={classes.cardTitleAbsolute}>
                         This Summer Will be Awesome
@@ -1220,7 +1220,7 @@ export default function SectionCards() {
                       Twitter
                     </h5>
                     <h4 className={classes.cardTitleWhite}>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         {'"'}You Don{"'"}t Have to Sacrifice Joy to Build a
                         Fabulous Business and Life{'"'}
                       </a>
@@ -1228,7 +1228,7 @@ export default function SectionCards() {
                   </CardBody>
                   <CardFooter>
                     <div className={classes.authorWhite}>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <img
                           src="/img/faces/avatar.jpg"
                           alt="..."
@@ -1249,7 +1249,7 @@ export default function SectionCards() {
               <GridItem xs={12} sm={6} md={6} lg={4}>
                 <Card blog plain>
                   <CardHeader image plain>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="" onClick={(e) => e.preventDefault()}>
                       <img src="/img/examples/blog1.jpg" alt="..." />
                     </a>
                     <div
@@ -1265,7 +1265,7 @@ export default function SectionCards() {
                       <h6 className={classes.cardCategory}>Legal</h6>
                     </Success>
                     <h4 className={classes.cardTitle}>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         5 Common Legal Mistakes That Can Trip-Up Your Startup
                       </a>
                     </h4>
@@ -1278,7 +1278,7 @@ export default function SectionCards() {
                   </CardBody>
                   <CardFooter plain>
                     <div className={classes.author}>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <img
                           src="/img/faces/marc.jpg"
                           alt="..."
@@ -1296,7 +1296,7 @@ export default function SectionCards() {
               <GridItem xs={12} sm={6} md={6} lg={4}>
                 <Card blog plain>
                   <CardHeader image plain>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="" onClick={(e) => e.preventDefault()}>
                       <img src="/img/examples/blog6.jpg" alt="..." />
                     </a>
                     <div
@@ -1314,14 +1314,14 @@ export default function SectionCards() {
                       </h6>
                     </Danger>
                     <h4 className={classes.cardTitle}>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         To Grow Your Business Start Focusing on Your Employees
                       </a>
                     </h4>
                   </CardBody>
                   <CardFooter plain>
                     <div className={classes.author}>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <img
                           src="/img/faces/marc.jpg"
                           alt="..."
@@ -1341,7 +1341,7 @@ export default function SectionCards() {
                       <i className="far fa-newspaper" /> The Next Web
                     </h5>
                     <h4 className={classes.cardTitleWhite}>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         {'"'}Focus on Your Employees{'"'}
                       </a>
                     </h4>
@@ -1374,7 +1374,7 @@ export default function SectionCards() {
               <GridItem xs={12} sm={4} md={4}>
                 <Card profile plain>
                   <CardHeader image plain>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="" onClick={(e) => e.preventDefault()}>
                       <img src="/img/examples/card-profile4.jpg" alt="..." />
                       <div className={classes.cardTitleAbsolute}>
                         Tania Andrew
@@ -1420,7 +1420,7 @@ export default function SectionCards() {
               <GridItem xs={12} sm={4} md={4}>
                 <Card profile plain>
                   <CardHeader image plain>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="" onClick={(e) => e.preventDefault()}>
                       <img src="/img/examples/card-profile1.jpg" alt="..." />
                     </a>
                     <div
@@ -1462,7 +1462,7 @@ export default function SectionCards() {
               <GridItem xs={12} sm={4} md={4}>
                 <Card profile plain>
                   <CardAvatar profile plain>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="" onClick={(e) => e.preventDefault()}>
                       <img src="/img/faces/marc.jpg" alt="..." />
                     </a>
                   </CardAvatar>

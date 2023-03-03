@@ -315,7 +315,7 @@ export default function ProductPage() {
               <GridItem sm={6} md={3}>
                 <Card product>
                   <CardHeader image>
-                    <a href="#pablo">
+                    <a href="">
                       <img
                         src="/img/examples/card-product1.jpg"
                         alt="cardProduct"
@@ -359,7 +359,7 @@ export default function ProductPage() {
               <GridItem sm={6} md={3}>
                 <Card product>
                   <CardHeader image>
-                    <a href="#pablo">
+                    <a href="">
                       <img
                         src="/img/examples/card-product3.jpg"
                         alt="cardProduct3"
@@ -397,7 +397,7 @@ export default function ProductPage() {
               <GridItem sm={6} md={3}>
                 <Card product>
                   <CardHeader image>
-                    <a href="#pablo">
+                    <a href="">
                       <img
                         src="/img/examples/card-product4.jpg"
                         alt="cardProduct4"
@@ -435,7 +435,7 @@ export default function ProductPage() {
               <GridItem sm={6} md={3}>
                 <Card product>
                   <CardHeader image>
-                    <a href="#pablo">
+                    <a href="">
                       <img
                         src="/img/examples/card-product2.jpg"
                         alt="cardProduct2"

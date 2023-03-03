@@ -23,7 +23,7 @@ export default function SectionBlog() {
           <GridItem md={4} sm={4}>
             <Card blog>
               <CardHeader image>
-                <a href="#pablo">
+                <a href="">
                   <img src="/img/dg6.jpg" alt="..." />
                 </a>
                 <div
@@ -38,7 +38,7 @@ export default function SectionBlog() {
                   Trends
                 </h6>
                 <h4 className={classes.cardTitle}>
-                  <a href="#pablo">
+                  <a href="">
                     Learn how to wear your scarf with a floral print shirt
                   </a>
                 </h4>
@@ -53,7 +53,7 @@ export default function SectionBlog() {
           <GridItem md={4} sm={4}>
             <Card blog>
               <CardHeader image>
-                <a href="#pablo">
+                <a href="">
                   <img src="/img/dg10.jpg" alt="..." />
                 </a>
                 <div
@@ -71,7 +71,7 @@ export default function SectionBlog() {
                   Fashion Week
                 </h6>
                 <h4 className={classes.cardTitle}>
-                  <a href="#pablo">
+                  <a href="">
                     Katy Perry was wearing a Dolce & Gabanna arc dress
                   </a>
                 </h4>
@@ -86,7 +86,7 @@ export default function SectionBlog() {
           <GridItem md={4} sm={4}>
             <Card blog>
               <CardHeader image>
-                <a href="#pablo">
+                <a href="">
                   <img src="/img/dg9.jpg" alt="..." />
                 </a>
                 <div
@@ -101,7 +101,7 @@ export default function SectionBlog() {
                   Fashion Week
                 </h6>
                 <h4 className={classes.cardTitle}>
-                  <a href="#pablo">
+                  <a href="">
                     Check the latest fashion events and which are the trends
                   </a>
                 </h4>

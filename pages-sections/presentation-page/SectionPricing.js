@@ -53,15 +53,15 @@ export default function SectionPricing() {
               <GridContainer>
                 <GridItem md={12}>
                   <h4 className={classes.title}>Thank you for sharing!</h4>
-                  <Button color="twitter" href="#pablo" round>
+                  <Button color="twitter" href="" round>
                     <i className={"fab fa-twitter " + classes.marginRight} />
                     Twitter
                   </Button>
-                  <Button color="facebook" href="#pablo" round>
+                  <Button color="facebook" href="" round>
                     <i className={"fab fa-facebook " + classes.marginRight} />
                     Facebook
                   </Button>
-                  <Button color="google" href="#pablo" round>
+                  <Button color="google" href="" round>
                     <i className={"fab fa-google " + classes.marginRight} />
                     Google
                   </Button>

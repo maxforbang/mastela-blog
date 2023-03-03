@@ -37,7 +37,7 @@ export default function SectionBlogs({ ...rest }) {
                 <GridContainer>
                   <GridItem xs={12} sm={5} md={5}>
                     <CardHeader image plain>
-                      <a href="#pablito" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <img src="/img/examples/card-blog4.jpg" alt="..." />
                       </a>
                       <div
@@ -55,7 +55,7 @@ export default function SectionBlogs({ ...rest }) {
                       <h6 className={classes.cardCategory}>ENTERPRISE</h6>
                     </Info>
                     <h3 className={classes.cardTitle}>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         Autodesk looks to future of 3D printing with Project
                         Escher
                       </a>
@@ -66,14 +66,14 @@ export default function SectionBlogs({ ...rest }) {
                       boxed software company selling licenses. Today, it’s
                       moving to a subscription model. Yet its own business model
                       disruption is only part of the story — and…
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         {" "}
                         Read More{" "}
                       </a>
                     </p>
                     <p className={classes.author}>
                       by{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <b>Mike Butcher</b>
                       </a>{" "}
                       , 2 days ago
@@ -91,7 +91,7 @@ export default function SectionBlogs({ ...rest }) {
                       </h6>
                     </Danger>
                     <h3 className={classes.cardTitle}>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         6 insights into the French Fashion landscape
                       </a>
                     </h3>
@@ -101,14 +101,14 @@ export default function SectionBlogs({ ...rest }) {
                       boxed software company selling licenses. Today, it’s
                       moving to a subscription model. Yet its own business model
                       disruption is only part of the story — and…
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         {" "}
                         Read More{" "}
                       </a>
                     </p>
                     <p className={classes.author}>
                       by{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <b>Mike Butcher</b>
                       </a>{" "}
                       , 2 days ago
@@ -116,7 +116,7 @@ export default function SectionBlogs({ ...rest }) {
                   </GridItem>
                   <GridItem xs={12} sm={5} md={5}>
                     <CardHeader image plain>
-                      <a href="#pablito" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <img src="/img/office2.jpg" alt="..." />
                       </a>
                       <div
@@ -151,7 +151,7 @@ export default function SectionBlogs({ ...rest }) {
                 <GridItem xs={12} sm={4} md={4}>
                   <Card plain blog>
                     <CardHeader plain image>
-                      <a href="#pablito" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <img src="/img/examples/card-blog4.jpg" alt="..." />
                       </a>
                       <div
@@ -168,7 +168,7 @@ export default function SectionBlogs({ ...rest }) {
                         <h6 className={classes.cardCategory}>ENTERPRISE</h6>
                       </Info>
                       <h4 className={classes.cardTitle}>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           Autodesk looks to future of 3D printing with Project
                           Escher
                         </a>
@@ -177,7 +177,7 @@ export default function SectionBlogs({ ...rest }) {
                         Like so many organizations these days, Autodesk is a
                         company in transition. It was until recently a
                         traditional boxed software company selling licenses.
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           {" "}
                           Read More{" "}
                         </a>
@@ -188,7 +188,7 @@ export default function SectionBlogs({ ...rest }) {
                 <GridItem xs={12} sm={4} md={4}>
                   <Card plain blog>
                     <CardHeader plain image>
-                      <a href="#pablito" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <img src="/img/examples/blog5.jpg" alt="..." />
                       </a>
                       <div
@@ -204,7 +204,7 @@ export default function SectionBlogs({ ...rest }) {
                         <h6 className={classes.cardCategory}>STARTUPS</h6>
                       </Success>
                       <h4 className={classes.cardTitle}>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           Lyft launching cross-platform service this week
                         </a>
                       </h4>
@@ -212,7 +212,7 @@ export default function SectionBlogs({ ...rest }) {
                         Like so many organizations these days, Autodesk is a
                         company in transition. It was until recently a
                         traditional boxed software company selling licenses.
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           {" "}
                           Read More{" "}
                         </a>
@@ -223,7 +223,7 @@ export default function SectionBlogs({ ...rest }) {
                 <GridItem xs={12} sm={4} md={4}>
                   <Card plain blog>
                     <CardHeader plain image>
-                      <a href="#pablito" onClick={(e) => e.preventDefault()}>
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <img src="/img/examples/blog7.jpg" alt="..." />
                       </a>
                       <div
@@ -242,7 +242,7 @@ export default function SectionBlogs({ ...rest }) {
                         </h6>
                       </Danger>
                       <h4 className={classes.cardTitle}>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           6 insights into the French Fashion landscape
                         </a>
                       </h4>
@@ -250,7 +250,7 @@ export default function SectionBlogs({ ...rest }) {
                         Like so many organizations these days, Autodesk is a
                         company in transition. It was until recently a
                         traditional boxed software company selling licenses.
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <a href="" onClick={(e) => e.preventDefault()}>
                           {" "}
                           Read More{" "}
                         </a>
@@ -265,186 +265,6 @@ export default function SectionBlogs({ ...rest }) {
       </div>
       {/* Blogs 2 END */}
       {/* Blogs 3 START */}
-      <div className={classes.blog}>
-        <div className={classes.container}>
-          <GridContainer>
-            <GridItem
-              xs={12}
-              sm={10}
-              md={10}
-              className={classes.mlAuto + " " + classes.mrAuto}
-            >
-              <h2 className={classes.title}>Latest Blogposts 3</h2>
-              <br />
-              <Card plain blog className={classes.card}>
-                <GridContainer>
-                  <GridItem xs={12} sm={4} md={4}>
-                    <CardHeader image plain>
-                      <a href="#pablito" onClick={(e) => e.preventDefault()}>
-                        <img src="/img/examples/card-blog4.jpg" alt="..." />
-                      </a>
-                      <div
-                        className={classes.coloredShadow}
-                        style={{
-                          backgroundImage:
-                            "url('/img/examples/card-blog4.jpg')",
-                          opacity: "1"
-                        }}
-                      />
-                      <div
-                        className={classes.coloredShadow}
-                        style={{
-                          backgroundImage:
-                            "url('/img/examples/card-blog4.jpg')",
-                          opacity: "1"
-                        }}
-                      />
-                    </CardHeader>
-                  </GridItem>
-                  <GridItem xs={12} sm={8} md={8}>
-                    <Info>
-                      <h6 className={classes.cardCategory}>ENTERPRISE</h6>
-                    </Info>
-                    <h3 className={classes.cardTitle}>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        Autodesk looks to future of 3D printing with Project
-                        Escher
-                      </a>
-                    </h3>
-                    <p className={classes.description}>
-                      Like so many organizations these days, Autodesk is a
-                      company in transition. It was until recently a traditional
-                      boxed software company selling licenses. Today, it’s
-                      moving to a subscription model. Yet its own business model
-                      disruption is only part of the story — and…
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        {" "}
-                        Read More{" "}
-                      </a>
-                    </p>
-                    <p className={classes.author}>
-                      by{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        <b>Mike Butcher</b>
-                      </a>{" "}
-                      , 2 days ago
-                    </p>
-                  </GridItem>
-                </GridContainer>
-              </Card>
-              <Card plain blog className={classes.card}>
-                <GridContainer>
-                  <GridItem xs={12} sm={4} md={4}>
-                    <CardHeader image plain>
-                      <a href="#pablito" onClick={(e) => e.preventDefault()}>
-                        <img src="/img/office2.jpg" alt="..." />
-                      </a>
-                      <div
-                        className={classes.coloredShadow}
-                        style={{
-                          backgroundImage: "url('/img/office2.jpg')",
-                          opacity: "1"
-                        }}
-                      />
-                      <div
-                        className={classes.coloredShadow}
-                        style={{
-                          backgroundImage: "url('/img/office2.jpg')",
-                          opacity: "1"
-                        }}
-                      />
-                    </CardHeader>
-                  </GridItem>
-                  <GridItem xs={12} sm={8} md={8}>
-                    <Danger>
-                      <h6 className={classes.cardCategory}>
-                        <TrendingUp />
-                        TRENDING
-                      </h6>
-                    </Danger>
-                    <h3 className={classes.cardTitle}>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        6 insights into the French Fashion landscape
-                      </a>
-                    </h3>
-                    <p className={classes.description}>
-                      Like so many organizations these days, Autodesk is a
-                      company in transition. It was until recently a traditional
-                      boxed software company selling licenses. Today, it’s
-                      moving to a subscription model. Yet its own business model
-                      disruption is only part of the story — and…
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        {" "}
-                        Read More{" "}
-                      </a>
-                    </p>
-                    <p className={classes.author}>
-                      by{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        <b>Mike Butcher</b>
-                      </a>{" "}
-                      , 2 days ago
-                    </p>
-                  </GridItem>
-                </GridContainer>
-              </Card>
-              <Card plain blog className={classes.card}>
-                <GridContainer>
-                  <GridItem xs={12} sm={4} md={4}>
-                    <CardHeader image plain>
-                      <a href="#pablito" onClick={(e) => e.preventDefault()}>
-                        <img src="/img/examples/blog8.jpg" alt="..." />
-                      </a>
-                      <div
-                        className={classes.coloredShadow}
-                        style={{
-                          backgroundImage: "url('/img/examples/blog8.jpg')",
-                          opacity: "1"
-                        }}
-                      />
-                      <div
-                        className={classes.coloredShadow}
-                        style={{
-                          backgroundImage: "url('/img/examples/blog8.jpg')",
-                          opacity: "1"
-                        }}
-                      />
-                    </CardHeader>
-                  </GridItem>
-                  <GridItem xs={12} sm={8} md={8}>
-                    <Success>
-                      <h6 className={classes.cardCategory}>STARTUPS</h6>
-                    </Success>
-                    <h3 className={classes.cardTitle}>
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        Lyft launching cross-platform service this week
-                      </a>
-                    </h3>
-                    <p className={classes.description}>
-                      Like so many organizations these days, Autodesk is a
-                      company in transition. It was until recently a traditional
-                      boxed software company selling licenses. Today, it’s
-                      moving to a subscription model. Yet its own business model
-                      disruption is only part of the story — and…
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        {" "}
-                        Read More{" "}
-                      </a>
-                    </p>
-                    <p className={classes.author}>
-                      by{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        <b>Megan Rose</b>
-                      </a>{" "}
-                      , 2 days ago
-                    </p>
-                  </GridItem>
-                </GridContainer>
-              </Card>
-            </GridItem>
-          </GridContainer>
-        </div>
-      </div>
       {/* Blogs 3 END */}
       {/* Blogs 4 START */}
       <div className={classes.blog}>
@@ -460,7 +280,7 @@ export default function SectionBlogs({ ...rest }) {
               <br />
               <Card plain blog className={classes.card4}>
                 <CardHeader image plain>
-                  <a href="#pablito" onClick={(e) => e.preventDefault()}>
+                  <a href="" onClick={(e) => e.preventDefault()}>
                     <img src="/img/bg5.jpg" alt="..." />
                   </a>
                   <div
@@ -476,7 +296,7 @@ export default function SectionBlogs({ ...rest }) {
                     <h6 className={classes.cardCategory}>FASHION</h6>
                   </Info>
                   <h3 className={classes.cardTitle}>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="" onClick={(e) => e.preventDefault()}>
                       Autodesk looks to future of 3D
                     </a>
                   </h3>
@@ -495,7 +315,7 @@ export default function SectionBlogs({ ...rest }) {
               </Card>
               <Card plain blog className={classes.card4}>
                 <CardHeader image plain>
-                  <a href="#pablito" onClick={(e) => e.preventDefault()}>
+                  <a href="" onClick={(e) => e.preventDefault()}>
                     <img src="/img/examples/blog6.jpg" alt="..." />
                   </a>
                   <div
@@ -511,7 +331,7 @@ export default function SectionBlogs({ ...rest }) {
                     <h6 className={classes.cardCategory}>LIFESTYLE</h6>
                   </Success>
                   <h3 className={classes.cardTitle}>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="" onClick={(e) => e.preventDefault()}>
                       We will breathe clean air and exercise
                     </a>
                   </h3>

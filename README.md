@@ -245,7 +245,7 @@ nextjs-material-kit-pro
     ├── blog-posts
     │   ├── SectionImage.js
     │   ├── SectionInterested.js
-    │   ├── SectionPills.js
+    │   ├── BlogPostsList.js
     │   └── SubscribeLine.js
     ├── components
     │   ├── SectionBasics.js
@@ -256,7 +256,7 @@ nextjs-material-kit-pro
     │   ├── SectionJavascript.js
     │   ├── SectionNavbars.js
     │   ├── SectionNotifications.js
-    │   ├── SectionPills.js
+    │   ├── BlogPostsList.js
     │   ├── SectionPreFooter.js
     │   ├── SectionTabs.js
     │   └── SectionTypography.js

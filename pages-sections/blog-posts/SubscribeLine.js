@@ -22,10 +22,10 @@ export default function SubscribeLine() {
       <div className={classes.container}>
         <GridContainer>
           <GridItem xs={12} sm={6} md={6}>
-            <h3 className={classes.title}>Get Tips & Tricks every Week!</h3>
+            <h3 className={classes.title}>Get access to exclusive deals every season!</h3>
             <p className={classes.description}>
-              Join our newsletter and get news in your inbox every week! We hate
-              spam too, so no worries about this.
+              Join the Mastela newsletter and we'll drop exclusive deals in your inbox every season along with other important news about the vacation space in Cape Coral. Don't worry, we hate
+              spam too.
             </p>
           </GridItem>
           <GridItem xs={12} sm={6} md={6}>

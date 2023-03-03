@@ -78,12 +78,12 @@ const customDropdownStyle = (theme) => ({
     zIndex: "1000",
     minWidth: "160px",
     padding: "5px 0",
-    margin: "2px 0 0",
+    margin: "72.2px 0 0",
     fontSize: "14px",
     textAlign: "left",
     listStyle: "none",
     backgroundColor: whiteColor,
-    backgroundClip: "padding-box"
+    backgroundClip: "padding-box",
   },
   menuList: {
     padding: "0"
@@ -116,7 +116,7 @@ const customDropdownStyle = (theme) => ({
     height: "100%",
     color: grayColor[8],
     whiteSpace: "nowrap",
-    minHeight: "unset"
+    minHeight: "unset",
   },
   darkHover: {
     "&:hover": {

@@ -68,7 +68,7 @@ export default function SectionPricing() {
                   <b>5.000</b> Messages
                 </li>
               </ul>
-              <Button href="#pablo" color="primary" round>
+              <Button href="" color="primary" round>
                 Get started
               </Button>
             </CardBody>
@@ -95,7 +95,7 @@ export default function SectionPricing() {
                   <b>15.000</b> Messages
                 </li>
               </ul>
-              <Button href="#pablo" color="white" round>
+              <Button href="" color="white" round>
                 Get started
               </Button>
             </CardBody>
@@ -126,7 +126,7 @@ export default function SectionPricing() {
                   <b>50.000</b> Messages
                 </li>
               </ul>
-              <Button href="#pablo" color="primary" round>
+              <Button href="" color="primary" round>
                 Get started
               </Button>
             </CardBody>

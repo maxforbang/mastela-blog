@@ -217,7 +217,7 @@ export default function SectionFooter() {
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="#pablito"
+                      href=""
                       onClick={(e) => e.preventDefault()}
                       className={classes.block}
                     >
@@ -226,7 +226,7 @@ export default function SectionFooter() {
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="#pablito"
+                      href=""
                       onClick={(e) => e.preventDefault()}
                       className={classes.block}
                     >
@@ -294,7 +294,7 @@ export default function SectionFooter() {
                 <List className={classes.list}>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="#pablo"
+                      href=""
                       className={classes.block}
                       onClick={(e) => e.preventDefault()}
                     >
@@ -303,7 +303,7 @@ export default function SectionFooter() {
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="#pablo"
+                      href=""
                       className={classes.block}
                       onClick={(e) => e.preventDefault()}
                     >
@@ -312,7 +312,7 @@ export default function SectionFooter() {
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="#pablo"
+                      href=""
                       className={classes.block}
                       onClick={(e) => e.preventDefault()}
                     >
@@ -321,7 +321,7 @@ export default function SectionFooter() {
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="#pablo"
+                      href=""
                       className={classes.block}
                       onClick={(e) => e.preventDefault()}
                     >
@@ -330,7 +330,7 @@ export default function SectionFooter() {
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="#pablo"
+                      href=""
                       className={classes.block}
                       onClick={(e) => e.preventDefault()}
                     >
@@ -488,16 +488,16 @@ export default function SectionFooter() {
                 <h5>About Us</h5>
                 <ul className={classes.linksVertical}>
                   <li>
-                    <a href="#pablo">Blog</a>
+                    <a href="">Blog</a>
                   </li>
                   <li>
-                    <a href="#pablo">About us</a>
+                    <a href="">About us</a>
                   </li>
                   <li>
-                    <a href="#pablo">Presentation</a>
+                    <a href="">Presentation</a>
                   </li>
                   <li>
-                    <a href="#pablo">Contact Us</a>
+                    <a href="">Contact Us</a>
                   </li>
                 </ul>
               </GridItem>
@@ -505,22 +505,22 @@ export default function SectionFooter() {
                 <h5>Market</h5>
                 <ul className={classes.linksVertical}>
                   <li>
-                    <a href="#pablo">Sales FAQ</a>
+                    <a href="">Sales FAQ</a>
                   </li>
                   <li>
-                    <a href="#pablo">How to register</a>
+                    <a href="">How to register</a>
                   </li>
                   <li>
-                    <a href="#pablo">Sell goods</a>
+                    <a href="">Sell goods</a>
                   </li>
                   <li>
-                    <a href="#pablo">Receive Payment</a>
+                    <a href="">Receive Payment</a>
                   </li>
                   <li>
-                    <a href="#pablo">Transactions issues</a>
+                    <a href="">Transactions issues</a>
                   </li>
                   <li>
-                    <a href="#pablo">Affiliates program</a>
+                    <a href="">Affiliates program</a>
                   </li>
                 </ul>
               </GridItem>
@@ -552,27 +552,27 @@ export default function SectionFooter() {
                 <h5>Follow Us</h5>
                 <ul className={classes.socialButtons}>
                   <li>
-                    <Button justIcon simple href="#pablo" color="twitter">
+                    <Button justIcon simple href="" color="twitter">
                       <i className="fab fa-twitter" />
                     </Button>
                   </li>
                   <li>
-                    <Button justIcon simple href="#pablo" color="facebook">
+                    <Button justIcon simple href="" color="facebook">
                       <i className="fab fa-facebook-square" />
                     </Button>
                   </li>
                   <li>
-                    <Button justIcon simple href="#pablo" color="dribbble">
+                    <Button justIcon simple href="" color="dribbble">
                       <i className="fab fa-dribbble" />
                     </Button>
                   </li>
                   <li>
-                    <Button justIcon simple href="#pablo" color="google">
+                    <Button justIcon simple href="" color="google">
                       <i className="fab fa-google-plus-g" />
                     </Button>
                   </li>
                   <li>
-                    <Button justIcon simple href="#pablo" color="instagram">
+                    <Button justIcon simple href="" color="instagram">
                       <i className="fab fa-instagram" />
                     </Button>
                   </li>
@@ -596,27 +596,27 @@ export default function SectionFooter() {
             <div>
               <ul className={classes.socialButtons}>
                 <li>
-                  <Button justIcon simple href="#pablo" color="twitter">
+                  <Button justIcon simple href="" color="twitter">
                     <i className="fab fa-twitter" />
                   </Button>
                 </li>
                 <li>
-                  <Button justIcon simple href="#pablo" color="facebook">
+                  <Button justIcon simple href="" color="facebook">
                     <i className="fab fa-facebook-square" />
                   </Button>
                 </li>
                 <li>
-                  <Button justIcon simple href="#pablo" color="dribbble">
+                  <Button justIcon simple href="" color="dribbble">
                     <i className="fab fa-dribbble" />
                   </Button>
                 </li>
                 <li>
-                  <Button justIcon simple href="#pablo" color="google">
+                  <Button justIcon simple href="" color="google">
                     <i className="fab fa-google-plus-g" />
                   </Button>
                 </li>
                 <li>
-                  <Button justIcon simple href="#pablo" color="youtube">
+                  <Button justIcon simple href="" color="youtube">
                     <i className="fab fa-youtube" />
                   </Button>
                 </li>
@@ -639,7 +639,7 @@ export default function SectionFooter() {
           <div className={classes.footer}>
             <GridContainer>
               <GridItem xs={12} sm={3} md={3}>
-                <a href="#pablo">
+                <a href="">
                   <h5>Material Kit PRO</h5>
                 </a>
                 <p>
@@ -651,16 +651,16 @@ export default function SectionFooter() {
                 <h5>About</h5>
                 <ul className={classes.linksVertical}>
                   <li>
-                    <a href="#pablo">Blog</a>
+                    <a href="">Blog</a>
                   </li>
                   <li>
-                    <a href="#pablo">About us</a>
+                    <a href="">About us</a>
                   </li>
                   <li>
-                    <a href="#pablo">Presentation</a>
+                    <a href="">Presentation</a>
                   </li>
                   <li>
-                    <a href="#pablo">Contact us</a>
+                    <a href="">Contact us</a>
                   </li>
                 </ul>
               </GridItem>
@@ -668,19 +668,19 @@ export default function SectionFooter() {
                 <h5>Market</h5>
                 <ul className={classes.linksVertical}>
                   <li>
-                    <a href="#pablo">Sales FAQ</a>
+                    <a href="">Sales FAQ</a>
                   </li>
                   <li>
-                    <a href="#pablo">How to register</a>
+                    <a href="">How to register</a>
                   </li>
                   <li>
-                    <a href="#pablo">Sell Goods</a>
+                    <a href="">Sell Goods</a>
                   </li>
                   <li>
-                    <a href="#pablo">Receive Payment</a>
+                    <a href="">Receive Payment</a>
                   </li>
                   <li>
-                    <a href="#pablo">Transactions Issues</a>
+                    <a href="">Transactions Issues</a>
                   </li>
                 </ul>
               </GridItem>
@@ -688,13 +688,13 @@ export default function SectionFooter() {
                 <h5>Legal</h5>
                 <ul className={classes.linksVertical}>
                   <li>
-                    <a href="#pablo">Transactions FAQ</a>
+                    <a href="">Transactions FAQ</a>
                   </li>
                   <li>
-                    <a href="#pablo">Terms & conditions</a>
+                    <a href="">Terms & conditions</a>
                   </li>
                   <li>
-                    <a href="#pablo">Licenses</a>
+                    <a href="">Licenses</a>
                   </li>
                 </ul>
               </GridItem>

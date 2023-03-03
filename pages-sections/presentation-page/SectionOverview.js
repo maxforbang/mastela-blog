@@ -119,7 +119,7 @@ export default function SectionOverview() {
                 <GridContainer>
                   <GridItem md={3} sm={3}>
                     <CardHeader image plain>
-                      <a href="#pablo">
+                      <a href="">
                         <img src="/img/assets-for-demo/test1.jpg" alt="..." />
                       </a>
                       <div
@@ -158,7 +158,7 @@ export default function SectionOverview() {
                 <GridContainer>
                   <GridItem md={3} sm={3}>
                     <CardHeader image plain>
-                      <a href="#pablo">
+                      <a href="">
                         <img src="/img/assets-for-demo/test2.jpg" alt="..." />
                       </a>
                       <div
@@ -198,7 +198,7 @@ export default function SectionOverview() {
                 <GridContainer>
                   <GridItem md={3} sm={3}>
                     <CardHeader image plain>
-                      <a href="#pablo">
+                      <a href="">
                         <img src="/img/assets-for-demo/test3.jpg" alt="..." />
                       </a>
                       <div

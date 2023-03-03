@@ -13,6 +13,7 @@ import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
 
 import styles from "/styles/jss/nextjs-material-kit-pro/components/navPillsStyle.js";
+import {Box} from "@mui/material";
 
 const useStyles = makeStyles(styles);
 
@@ -85,16 +86,16 @@ export default function NavPills(props) {
       <GridItem {...horizontal.contentGrid}>{tabContent}</GridItem>
     </GridContainer>
   ) : (
-    <div>
-      {tabButtons}
+    <Box mt={-20}>
+      {/*{tabButtons}*/}
       {tabContent}
-    </div>
+    </Box>
   );
 }
 
 NavPills.defaultProps = {
   active: 0,
-  color: "primary"
+  color: "info"
 };
 
 NavPills.propTypes = {

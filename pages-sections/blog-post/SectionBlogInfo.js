@@ -20,47 +20,47 @@ export default function SectionBlogInfo() {
       <GridContainer justifyContent="center">
         <GridItem xs={12} sm={10} md={8}>
           <GridContainer>
-            <GridItem xs={12} sm={6} md={6}>
-              <div className={classes.blogTags}>
-                Tags:
-                <Badge color="primary">Photography</Badge>
-                <Badge color="primary">Stories</Badge>
-                <Badge color="primary">Castle</Badge>
-              </div>
-            </GridItem>
-            <GridItem xs={12} sm={6} md={6}>
-              <Button color="google" round className={classes.buttons}>
-                <i className="fab fa-google" /> 232
-              </Button>
-              <Button color="twitter" round className={classes.buttons}>
-                <i className="fab fa-twitter" /> 910
-              </Button>
-              <Button color="facebook" round className={classes.buttons}>
-                <i className="fab fa-facebook-square" /> 872
-              </Button>
-            </GridItem>
+            {/*<GridItem xs={12} sm={6} md={6}>*/}
+            {/*  <div className={classes.blogTags}>*/}
+            {/*    {'Tags: '}*/}
+            {/*    <Badge color="primary">Photography</Badge>*/}
+            {/*    <Badge color="primary">Stories</Badge>*/}
+            {/*    <Badge color="primary">Castle</Badge>*/}
+            {/*  </div>*/}
+            {/*</GridItem>*/}
+            {/*<GridItem xs={12} sm={6} md={6}>*/}
+            {/*  <Button color="google" round className={classes.buttons}>*/}
+            {/*    <i className="fab fa-google" /> 232*/}
+            {/*  </Button>*/}
+            {/*  <Button color="twitter" round className={classes.buttons}>*/}
+            {/*    <i className="fab fa-twitter" /> 910*/}
+            {/*  </Button>*/}
+            {/*  <Button color="facebook" round className={classes.buttons}>*/}
+            {/*    <i className="fab fa-facebook-square" /> 872*/}
+            {/*  </Button>*/}
+            {/*</GridItem>*/}
           </GridContainer>
           <hr />
           <Card plain profile className={classes.card}>
             <GridContainer>
               <GridItem xs={12} sm={2} md={2}>
                 <CardAvatar plain profile>
-                  <img src="/img/faces/card-profile1-square.jpg" alt="..." />
+                  <a href='https://mastelavacations.com'>
+                  <img src="/img/blog/Mastela-Logo-Square.png" alt="..." style={{height: 'auto'}}/>
+                  </a>
                 </CardAvatar>
               </GridItem>
               <GridItem xs={12} sm={8} md={8}>
-                <h4 className={classes.cardTitle}>Alec Thompson</h4>
+                <h4 className={classes.cardTitle}>Mastela Vacations</h4>
                 <p className={classes.description}>
-                  I{"'"}ve been trying to figure out the bed design for the
-                  master bedroom at our Hidden Hills compound...I like good
-                  music from Youtube.
+                  Mastela Vacations is all about taking the Cape Coral Experience to the next level with great spaces, and even better memories. If you have any questions about Cape Coral or the surrounding area, please don't hesitate to <a href='https://mastelavacations.com/contact-us.html'>contact us.</a>
                 </p>
               </GridItem>
-              <GridItem xs={12} sm={2} md={2}>
-                <Button round className={classes.pullRight}>
-                  Follow
-                </Button>
-              </GridItem>
+              {/*<GridItem xs={12} sm={2} md={2}>*/}
+              {/*  <Button round className={classes.pullRight}>*/}
+              {/*    Follow*/}
+              {/*  </Button>*/}
+              {/*</GridItem>*/}
             </GridContainer>
           </Card>
         </GridItem>
