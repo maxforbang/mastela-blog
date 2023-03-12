@@ -1,26 +1,15 @@
 import React from "react";
 import makeStyles from "@mui/styles/makeStyles";
-import Tooltip from "@mui/material/Tooltip";
-// @mui/icons-material
-import FormatAlignLeft from "@mui/icons-material/FormatAlignLeft";
-// core components
-import GridContainer from "/components/Grid/GridContainer.js";
+
 import GridItem from "/components/Grid/GridItem.js";
-import NavPills from "/components/NavPills/NavPills.js";
 import Card from "/components/Card/Card.js";
 import CardBody from "/components/Card/CardBody.js";
-import Button from "/components/CustomButtons/Button.js";
 
 import sectionPillsStyle from "/styles/jss/nextjs-material-kit-pro/pages/blogPostsSections/sectionPillsStyle.js";
 import CardHeader from "../../components/Card/CardHeader";
-import Info from "../../components/Typography/Info";
-import Danger from "../../components/Typography/Danger";
-import TrendingUp from "@mui/icons-material/TrendingUp";
-import Success from "../../components/Typography/Success";
-import {BeachAccess, BeachAccessTwoTone} from "@mui/icons-material";
+
 import Link from "next/link";
-import imageUrlBuilder from '@sanity/image-url'
-import sanityClient from "../../lib/sanityClient";
+
 import {urlFor} from "../../lib/urlFor";
 import Image from "next/image"
 
@@ -62,7 +51,7 @@ export default function BlogPostsListItemColumn({post}) {
       <GridItem xs={12} sm={4} md={4} lg={4} xl={4}>
         <Card plain blog>
           <CardHeader image plain>
-            <Link href="/post/[slug]" as={`/post/${slug.current}`}>
+            <Link href="/[slug]" as={`/${slug.current}`}>
               <a>
                 {mainImage ?
                     <Image
@@ -83,13 +72,13 @@ export default function BlogPostsListItemColumn({post}) {
             {/*  <h6>ENTERPRISE</h6>*/}
             {/*</Info>*/}
             <h4 className={classes.cardTitle}>
-              <Link href="/post/[slug]" as={`/post/${slug.current}`}>
+              <Link href="/[slug]" as={`/${slug.current}`}>
                 {title}
               </Link>
             </h4>
             <p className={classes.description}>
               {body[1].children[0].text.substring(0, 266)}…
-              <Link href="/post/[slug]" as={`/post/${slug.current}`}>
+              <Link href="/[slug]" as={`/${slug.current}`}>
                 {" Read More"}
               </Link>
             </p>
