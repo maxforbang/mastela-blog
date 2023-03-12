@@ -4,6 +4,7 @@ import classNames from "classnames";
 // nodejs library to set properties for components
 import PropTypes from "prop-types";
 import makeStyles from '@mui/styles/makeStyles';
+import Image from "next/image"
 
 // core components
 import styles from "/styles/jss/nextjs-material-kit-pro/components/parallaxStyle.js";
@@ -37,6 +38,9 @@ export default function Parallax(props) {
     [classes.small]: small,
     [className]: className !== undefined,
   });
+
+  //const imageUrl = require(image);
+  //const optimizedImageUrl = Image.url(image);
   return (
     <div
       className={parallaxClasses}
@@ -46,21 +50,6 @@ export default function Parallax(props) {
         transform: transform
       }}
     >
-      <picture>
-        <source srcSet="
-                    https://ik.imagekit.io/mastela/tr:w-190/Villa_Encore/64-Photo_64.jpg 190w,
-                    https://ik.imagekit.io/mastela/tr:w-571/Villa_Encore/64-Photo_64.jpg 571w,
-                    https://ik.imagekit.io/mastela/tr:w-785/Villa_Encore/64-Photo_64.jpg 785w,
-                    https://ik.imagekit.io/mastela/tr:w-978/Villa_Encore/64-Photo_64.jpg 978w,
-                    https://ik.imagekit.io/mastela/tr:w-1145/Villa_Encore/64-Photo_64.jpg 1145w,
-                    https://ik.imagekit.io/mastela/tr:w-1303/Villa_Encore/64-Photo_64.jpg 1303w,
-                    https://ik.imagekit.io/mastela/tr:w-1485/Villa_Encore/64-Photo_64.jpg 1485w,
-                    https://ik.imagekit.io/mastela/tr:w-1569/Villa_Encore/64-Photo_64.jpg 1569w,
-                    https://ik.imagekit.io/mastela/tr:w-1718/Villa_Encore/64-Photo_64.jpg 1718w,
-                    https://ik.imagekit.io/mastela/tr:w-1800/Villa_Encore/64-Photo_64.jpg 1800w,
-                    https://ik.imagekit.io/mastela/tr:w-2500/Villa_Encore/64-Photo_64.jpg 2500w"
-                />
-      </picture>
       {children}
     </div>
   );

@@ -40,7 +40,7 @@ export default function Post({post, otherPosts}) {
 
   const {body, mainImage, categories, publishedAt, slug, title} = post;
 
-  const imageSrc = mainImage ? urlFor(mainImage).url() : null;
+  const imageSrc = mainImage ? urlFor(mainImage).width(1200).url() : null;
   const blurImageSrc = mainImage ? urlFor(mainImage).width(24).height(24).blur(10).url() : null;
 
   return (
@@ -67,9 +67,9 @@ export default function Post({post, otherPosts}) {
               {/*  did.*/}
               {/*</h4>*/}
               <br />
-              {/*<Button color="rose" size="lg" round>*/}
-              {/*  <FormatAlignLeft /> Read Article*/}
-              {/*</Button>*/}
+              <Button color="rose" size="lg" round>
+                <FormatAlignLeft /> Read Article
+              </Button>
             </GridItem>
           </GridContainer>
         </div>
