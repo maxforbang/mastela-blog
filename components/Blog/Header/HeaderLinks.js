@@ -92,6 +92,15 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list + " " + classes.mlAuto}>
       <ListItem className={classes.listItem}>
+        <Box className={classes.navLink}>
+          <Link href="/">
+            <a className={classes.dropdownLink}>
+              Home
+            </a>
+          </Link>
+        </Box>
+      </ListItem>
+      <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
           navDropdown
@@ -103,34 +112,32 @@ export default function HeaderLinks(props) {
           }}
           // buttonIcon={Apps}
           dropdownList={[
-            <Link href="https://mastelavacations.com/vacation-rental.php?unit=kXP7xGVm9j">
+            <Link href="/[rental]" as={`/villa-encore`}>
               <a className={classes.dropdownLink}>
                 Villa Encore
               </a>
             </Link>,
-            <Link href="https://mastelavacations.com/vacation-rental.php?unit=j7oxO1ENyz">
+            <Link href="/[rental]" as={`/the-twins-villa`}>
               <a className={classes.dropdownLink}>
                 The Twins Villa
               </a>
             </Link>,
-            <Link href="https://mastelavacations.com/vacation-rental.php?unit=Q3o9p91N0E">
+            <Link href="/[rental]" as={`/villa-aviator`}>
               <a className={classes.dropdownLink}>
                 Villa Aviator
               </a>
             </Link>,
-            <a
-              href="https://mastelavacations.com/vacation-rental.php?unit=kMobVMAoQD"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Maya Serenity
-            </a>
+            <Link href="/[rental]" as={`/maya-serenity`}>
+              <a className={classes.dropdownLink}>
+                Maya Serenity
+              </a>
+            </Link>
           ]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
         <Box className={classes.navLink}>
-          <Link href="/">
+          <Link href="/cape-coral-local-area-guide">
             <a className={classes.dropdownLink}>
               Local Area Guide
             </a>
@@ -139,7 +146,16 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Box className={classes.navLink}>
-          <Link href="https://mastelavacations.com/contact-us.html">
+          <Link href="/about-us">
+            <a className={classes.dropdownLink}>
+              About Us
+            </a>
+          </Link>
+        </Box>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Box className={classes.navLink}>
+          <Link href="/contact-us">
             <a className={classes.dropdownLink}>
               Contact Us
             </a>

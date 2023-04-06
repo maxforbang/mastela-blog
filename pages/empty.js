@@ -21,12 +21,10 @@ import Footer from "../components/Footer/Footer";
 import Button from "@mui/material/Button";
 import {Add} from "@mui/icons-material";
 import profilePageStyle from "../styles/jss/nextjs-material-kit-pro/pages/profilePageStyle";
-import {Box} from "@mui/material";
-import Link from "next/link";
 
 const useStyles = makeStyles(profilePageStyle);
 
-export default function Home({ ...rest }) {
+export default function ProfilePage({ ...rest }) {
   React.useEffect(() => {
     window.scrollTo(0, 0);
     document.body.scrollTop = 0;

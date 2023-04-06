@@ -121,7 +121,7 @@ nextjs-material-kit-pro
 │   ├── contact-us.js
 │   ├── ecommerce.js
 │   ├── error-page.js
-│   ├── index.js
+│   ├── cape-coral-local-area-guide.js
 │   ├── landing-page.js
 │   ├── login.js
 │   ├── presentation.js

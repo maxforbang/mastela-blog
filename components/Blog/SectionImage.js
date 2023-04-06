@@ -47,7 +47,7 @@ export default function SectionImage() {
 										<p className={classes.description}>
 											After being duped by multiple vacation rental management companies in the
 											past, Thomas made it his driving mission to create a management company that
-											focused on trust and full transparency each property owner.
+											focuses on trust and full transparency with each property owner.
 										</p>
 									</CardBody>
 									<CardFooter profile plain>

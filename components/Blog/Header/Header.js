@@ -66,7 +66,7 @@ export default function Header(props) {
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
         <Button className={classes.title}>
-          <Link href="https://mastelavacations.com">
+          <Link href="/">
             <a>
               <img src="/img/blog/Mastela-Logo.png" style={{maxHeight: 52.8}}/>
             </a>
