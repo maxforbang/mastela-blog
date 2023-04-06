@@ -81,7 +81,7 @@ export default function Home({posts}) {
                       </Link>
                     </ListItem>
                     <ListItem className={classes.inlineBlock}>
-                      <Link href="/cape-coral-local-area-guide/cape-coral-local-area-guide">
+                      <Link href="/cape-coral-local-area-guide">
                         <a className={classes.block}>
                           Local Area Guide
                         </a>

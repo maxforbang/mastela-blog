@@ -12,17 +12,17 @@ import Favorite from "@mui/icons-material/Favorite";
 // core components
 
 
-import Header from "../../components/Blog/Header/Header";
-import Parallax from "../../components/Parallax/Parallax";
-import HeaderLinks from "../../components/Blog/Header/HeaderLinks";
-import GridContainer from "../../components/Grid/GridContainer";
-import GridItem from "../../components/Grid/GridItem";
-import Footer from "../../components/Footer/Footer";
+import Header from "../components/Blog/Header/Header";
+import Parallax from "../components/Parallax/Parallax";
+import HeaderLinks from "../components/Blog/Header/HeaderLinks";
+import GridContainer from "../components/Grid/GridContainer";
+import GridItem from "../components/Grid/GridItem";
+import Footer from "../components/Footer/Footer";
 import Button from "@mui/material/Button";
 import {Add} from "@mui/icons-material";
-import profilePageStyle from "../../styles/jss/nextjs-material-kit-pro/pages/profilePageStyle";
+import profilePageStyle from "../styles/jss/nextjs-material-kit-pro/pages/profilePageStyle";
 import Link from "next/link";
-import sanityClient from "../../lib/sanityClient";
+import sanityClient from "../lib/sanityClient";
 import {groq} from "next-sanity";
 
 const useStyles = makeStyles(profilePageStyle);
@@ -103,28 +103,28 @@ export default function ProfilePage({ ...rest }) {
                     </Link>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
-                    <Link href="/pages/search-results">
+                    <Link href="/search-results">
                       <a className={classes.block}>
                         Our Villas
                       </a>
                     </Link>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
-                    <Link href="/pages/cape-coral-local-area-guide">
+                    <Link href="/cape-coral-local-area-guide">
                       <a className={classes.block}>
                         Local Area Guide
                       </a>
                     </Link>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
-                    <Link href="/pages/about-us">
+                    <Link href="/about-us">
                       <a className={classes.block}>
                         About Us
                       </a>
                     </Link>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
-                    <Link href="/pages/contact-us">
+                    <Link href="/contact-us">
                       <a className={classes.block}>
                         Contact Us
                       </a>

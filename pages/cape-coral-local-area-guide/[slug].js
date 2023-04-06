@@ -8,7 +8,7 @@ import ListItem from "@mui/material/ListItem";
 import FormatAlignLeft from "@mui/icons-material/FormatAlignLeft";
 import Favorite from "@mui/icons-material/Favorite";
 // core components
-import Header from "../components/Blog/Header/Header";
+import Header from "../../components/Blog/Header/Header";
 import HeaderLinks from "/components/Blog/Header/HeaderLinks.js";
 import Parallax from "/components/Parallax/Parallax.js";
 import Footer from "/components/Footer/Footer.js";
@@ -18,13 +18,13 @@ import SectionBlogInfo from "/components/Blog/SectionBlogInfo.js";
 
 
 import blogPostPageStyle from "/styles/jss/nextjs-material-kit-pro/pages/blogPostPageStyle.js";
-import Article from "../components/Blog/Article";
-import PostSuggestions from "../components/Blog/PostSuggestions";
+import Article from "../../components/Blog/Article";
+import PostSuggestions from "../../components/Blog/PostSuggestions";
 import {groq} from "next-sanity";
-import sanityClient from "../lib/sanityClient";
-import {urlFor} from "../lib/urlFor";
-import SectionImage from "../components/Blog/SectionImage";
-import SubscribeLine from "../components/Blog/SubscribeLine";
+import sanityClient from "../../lib/sanityClient";
+import {urlFor} from "../../lib/urlFor";
+import SectionImage from "../../components/Blog/SectionImage";
+import SubscribeLine from "../../components/Blog/SubscribeLine";
 
 const useStyles = makeStyles(blogPostPageStyle);
 
