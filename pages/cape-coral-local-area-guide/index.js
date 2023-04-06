@@ -19,7 +19,7 @@ import SubscribeLine from "/components/Blog/SubscribeLine.js";
 
 import blogPostsPageStyle from "/styles/jss/nextjs-material-kit-pro/pages/blogPostsPageStyle.js";
 import {createClient, groq} from "next-sanity";
-import sanityClient from "../lib/sanityClient";
+import sanityClient from "../../lib/sanityClient";
 import Link from "next/link";
 
 const useStyles = makeStyles(blogPostsPageStyle);
@@ -74,28 +74,28 @@ export default function Home({posts}) {
                       </Link>
                     </ListItem>
                     <ListItem className={classes.inlineBlock}>
-                      <Link href="/search-results">
+                      <Link href="/pages/search-results">
                         <a className={classes.block}>
                           Our Villas
                         </a>
                       </Link>
                     </ListItem>
                     <ListItem className={classes.inlineBlock}>
-                      <Link href="/cape-coral-local-area-guide">
+                      <Link href="/cape-coral-local-area-guide/cape-coral-local-area-guide">
                         <a className={classes.block}>
                           Local Area Guide
                         </a>
                       </Link>
                     </ListItem>
                     <ListItem className={classes.inlineBlock}>
-                      <Link href="/about-us">
+                      <Link href="/pages/about-us">
                         <a className={classes.block}>
                           About Us
                         </a>
                       </Link>
                     </ListItem>
                     <ListItem className={classes.inlineBlock}>
-                      <Link href="/contact-us">
+                      <Link href="/pages/contact-us">
                         <a className={classes.block}>
                           Contact Us
                         </a>

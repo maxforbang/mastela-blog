@@ -53,7 +53,7 @@ export default function BlogPostsListItemRow({post}) {
                 <GridContainer display='flex' alignItems='center'>
                   <GridItem xs={12} sm={6} md={4}>
                     <CardHeader image plain>
-                      <Link href="/[slug]" as={`/${slug.current}`}>
+                      <Link href="/cape-coral-local-area-guide/[slug]" as={`/cape-coral-local-area-guide/${slug.current}`}>
                         <a>
                           {mainImage ?
                               <Image
@@ -79,13 +79,13 @@ export default function BlogPostsListItemRow({post}) {
                     {/*  </h6>*/}
                     {/*</Info>*/}
                     <h3 className={classes.cardTitle}>
-                      <Link href="/[slug]" as={`/${slug.current}`}>
+                      <Link href="/cape-coral-local-area-guide/[slug]" as={`/cape-coral-local-area-guide/${slug.current}`}>
                         {title}
                       </Link>
                     </h3>
                     <p className={classes.description}>
                       {body[1].children[0].text.substring(0, 266)}…
-                      <Link href="/[slug]" as={`/${slug.current}`}>
+                      <Link href="/cape-coral-local-area-guide/[slug]" as={`/cape-coral-local-area-guide/${slug.current}`}>
                         {" Read More"}
                       </Link>
                     </p>
