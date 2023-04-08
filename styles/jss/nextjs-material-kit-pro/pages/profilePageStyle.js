@@ -15,7 +15,14 @@ import imagesStyle from "/styles/jss/nextjs-material-kit-pro/imagesStyles.js";
 import tooltipsStyle from "/styles/jss/nextjs-material-kit-pro/tooltipsStyle.js";
 
 const profilePageStyle = {
-  container,
+  flex: {
+    display: 'flex',
+    justifyContent: 'center',
+  },
+  container: {
+    ...container,
+    zIndex: '2',
+  },
   ...imagesStyle,
   ...tooltipsStyle,
   cardTitleWhite: {
@@ -23,6 +30,13 @@ const profilePageStyle = {
     color: whiteColor + "  !important"
   },
   cardTitle,
+  searchBar: {
+    transform: "translate3d(0, -3rem, 0)",
+    backgroundColor: "white",
+    width: "80%",
+    justifySelf: 'center',
+    margin: "0 auto"
+  },
   profile: {
     textAlign: "center",
     "& img": {
@@ -45,17 +59,23 @@ const profilePageStyle = {
   },
 
   main: {
-    ...main
+    ...main,
+    paddingBottom: '50px'
   },
   mainRaised: {
-    ...mainRaised
+    ...mainRaised,
+    margin: "auto",
+    "@media (max-width: 830px)": {
+      margin: "auto",
+    },
   },
   title: {
     ...title,
     position: "relative",
     marginTop: "30px",
     minHeight: "32px",
-    textDecoration: "none"
+    textDecoration: "none",
+    color: whiteColor
   },
   follow: {
     position: "absolute",

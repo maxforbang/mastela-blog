@@ -2,10 +2,10 @@ import React from "react";
 import makeStyles from "@mui/styles/makeStyles";
 // @mui/icons-material
 // core components
-import GridContainer from "/components/Grid/GridContainer.js";
-import GridItem from "/components/Grid/GridItem.js";
-import Card from "/components/Card/Card.js";
-import CardAvatar from "/components/Card/CardAvatar.js";
+import GridContainer from "/components/KitComponents/NextKit/Grid/GridContainer.js";
+import GridItem from "/components/KitComponents/NextKit/Grid/GridItem.js";
+import Card from "/components/KitComponents/NextKit/Card/Card.js";
+import CardAvatar from "/components/KitComponents/NextKit/Card/CardAvatar.js";
 
 import sectionBlogInfoStyle from "/styles/jss/nextjs-material-kit-pro/pages/blogPostSections/sectionBlogInfoStyle.js";
 

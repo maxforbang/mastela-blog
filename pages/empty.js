@@ -12,12 +12,12 @@ import Favorite from "@mui/icons-material/Favorite";
 // core components
 
 
-import Header from "../components/Blog/Header/Header";
-import Parallax from "../components/Parallax/Parallax";
-import HeaderLinks from "../components/Blog/Header/HeaderLinks";
-import GridContainer from "../components/Grid/GridContainer";
-import GridItem from "../components/Grid/GridItem";
-import Footer from "../components/Footer/Footer";
+import Header from "../components/Shared/Header/Header";
+import Parallax from "../components/KitComponents/NextKit/Parallax/Parallax";
+import HeaderLinks from "../components/Shared/Header/HeaderLinks";
+import GridContainer from "../components/KitComponents/NextKit/Grid/GridContainer";
+import GridItem from "../components/KitComponents/NextKit/Grid/GridItem";
+import Footer from "../components/KitComponents/NextKit/Footer/Footer";
 import Button from "@mui/material/Button";
 import {Add} from "@mui/icons-material";
 import profilePageStyle from "../styles/jss/nextjs-material-kit-pro/pages/profilePageStyle";

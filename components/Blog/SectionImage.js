@@ -2,14 +2,14 @@ import React from "react";
 import makeStyles from '@mui/styles/makeStyles';
 // @mui/icons-material
 // core components
-import GridContainer from "/components/Grid/GridContainer.js";
-import GridItem from "/components/Grid/GridItem.js";
-import Card from "/components/Card/Card.js";
-import CardHeader from "/components/Card/CardHeader.js";
-import CardBody from "/components/Card/CardBody.js";
-import CardFooter from "/components/Card/CardFooter.js";
-import Muted from "/components/Typography/Muted.js";
-import Button from "/components/CustomButtons/Button.js";
+import GridContainer from "/components/KitComponents/NextKit/Grid/GridContainer.js";
+import GridItem from "/components/KitComponents/NextKit/Grid/GridItem.js";
+import Card from "/components/KitComponents/NextKit/Card/Card.js";
+import CardHeader from "/components/KitComponents/NextKit/Card/CardHeader.js";
+import CardBody from "/components/KitComponents/NextKit/Card/CardBody.js";
+import CardFooter from "/components/KitComponents/NextKit/Card/CardFooter.js";
+import Muted from "/components/KitComponents/NextKit/Typography/Muted.js";
+import Button from "/components/KitComponents/NextKit/CustomButtons/Button.js";
 
 import sectionImageStyle from "/styles/jss/nextjs-material-kit-pro/pages/blogPostsSections/sectionImageStyle.js";
 

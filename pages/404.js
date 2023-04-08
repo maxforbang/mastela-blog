@@ -6,11 +6,11 @@ import ListItem from "@mui/material/ListItem";
 // @mui/icons-material
 import Favorite from "@mui/icons-material/Favorite";
 // core components
-import Header from "/components/Blog/Header/Header";
-import HeaderLinks from "/components/Blog/Header/HeaderLinks.js";
-import Footer from "/components/Footer/Footer.js";
-import GridContainer from "/components/Grid/GridContainer.js";
-import GridItem from "/components/Grid/GridItem.js";
+import Header from "/components/Shared/Header/Header";
+import HeaderLinks from "/components/Shared/Header/HeaderLinks.js";
+import Footer from "/components/KitComponents/NextKit/Footer/Footer.js";
+import GridContainer from "/components/KitComponents/NextKit/Grid/GridContainer.js";
+import GridItem from "/components/KitComponents/NextKit/Grid/GridItem.js";
 
 import errorPageStyle from "/styles/jss/nextjs-material-kit-pro/pages/errorPageStyles.js";
 

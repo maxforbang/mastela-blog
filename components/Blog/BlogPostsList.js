@@ -1,8 +1,8 @@
 import React from "react";
 import makeStyles from "@mui/styles/makeStyles";
 
-import GridContainer from "/components/Grid/GridContainer.js";
-import GridItem from "/components/Grid/GridItem.js";
+import GridContainer from "/components/KitComponents/NextKit/Grid/GridContainer.js";
+import GridItem from "/components/KitComponents/NextKit/Grid/GridItem.js";
 import sectionPillsStyle from "/styles/jss/nextjs-material-kit-pro/pages/blogPostsSections/sectionPillsStyle.js";
 import BlogPostsListItemRow from "./BlogPostsListItemRow";
 const useStyles = makeStyles(sectionPillsStyle);

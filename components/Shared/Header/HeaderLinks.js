@@ -39,8 +39,8 @@ import LineStyle from "@mui/icons-material/LineStyle";
 import Error from "@mui/icons-material/Error";
 
 // core components
-import CustomDropdown from "/components/CustomDropdown/CustomDropdown.js";
-import Button from "/components/CustomButtons/Button.js";
+import CustomDropdown from "/components/KitComponents/NextKit/CustomDropdown/CustomDropdown.js";
+import Button from "/components/KitComponents/NextKit/CustomButtons/Button.js";
 
 import styles from "/styles/jss/nextjs-material-kit-pro/components/headerLinksStyle.js";
 import {Box} from "@mui/material";

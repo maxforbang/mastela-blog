@@ -64,6 +64,7 @@ const headerLinksStyle = (theme) => ({
     fontWeight: "400",
     fontSize: "12px",
     textTransform: "uppercase",
+    textAlign: "center",
     lineHeight: "20px",
     textDecoration: "none",
     margin: "0px",

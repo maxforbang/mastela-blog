@@ -4,12 +4,12 @@ import InputAdornment from "@mui/material/InputAdornment";
 // @mui/icons-material
 import Mail from "@mui/icons-material/Mail";
 // core components
-import GridContainer from "/components/Grid/GridContainer.js";
-import GridItem from "/components/Grid/GridItem.js";
-import Card from "/components/Card/Card.js";
-import CardBody from "/components/Card/CardBody.js";
-import Button from "/components/CustomButtons/Button.js";
-import CustomInput from "/components/CustomInput/CustomInput.js";
+import GridContainer from "/components/KitComponents/NextKit/Grid/GridContainer.js";
+import GridItem from "/components/KitComponents/NextKit/Grid/GridItem.js";
+import Card from "/components/KitComponents/NextKit/Card/Card.js";
+import CardBody from "/components/KitComponents/NextKit/Card/CardBody.js";
+import Button from "/components/KitComponents/NextKit/CustomButtons/Button.js";
+import CustomInput from "/components/KitComponents/NextKit/CustomInput/CustomInput.js";
 
 import sectionSubscribeLineStyle from "/styles/jss/nextjs-material-kit-pro/pages/blogPostsSections/sectionSubscribeLineStyle.js";
 

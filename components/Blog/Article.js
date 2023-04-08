@@ -3,8 +3,8 @@ import React from "react";
 import classNames from "classnames";
 import makeStyles from "@mui/styles/makeStyles";
 // @mui/icons-material
-import GridContainer from "/components/Grid/GridContainer.js";
-import GridItem from "/components/Grid/GridItem.js";
+import GridContainer from "/components/KitComponents/NextKit/Grid/GridContainer.js";
+import GridItem from "/components/KitComponents/NextKit/Grid/GridItem.js";
 // core components
 
 import sectionTextStyle from "/styles/jss/nextjs-material-kit-pro/pages/blogPostSections/sectionTextStyle.js";

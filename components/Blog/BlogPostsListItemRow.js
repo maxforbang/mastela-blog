@@ -1,13 +1,13 @@
 import React from "react";
 import makeStyles from "@mui/styles/makeStyles";
 
-import GridContainer from "/components/Grid/GridContainer.js";
-import GridItem from "/components/Grid/GridItem.js";
-import Card from "/components/Card/Card.js";
+import GridContainer from "/components/KitComponents/NextKit/Grid/GridContainer.js";
+import GridItem from "/components/KitComponents/NextKit/Grid/GridItem.js";
+import Card from "/components/KitComponents/NextKit/Card/Card.js";
 
 
 import sectionPillsStyle from "/styles/jss/nextjs-material-kit-pro/pages/blogPostsSections/sectionPillsStyle.js";
-import CardHeader from "../../components/Card/CardHeader";
+import CardHeader from "../KitComponents/NextKit/Card/CardHeader";
 
 import Link from "next/link";
 

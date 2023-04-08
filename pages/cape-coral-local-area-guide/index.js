@@ -6,12 +6,12 @@ import ListItem from "@mui/material/ListItem";
 // @mui/icons-material
 import Favorite from "@mui/icons-material/Favorite";
 // core components
-import Header from "/components/Blog/Header/Header.js";
-import HeaderLinks from "/components/Blog/Header/HeaderLinks.js";
-import Footer from "/components/Footer/Footer.js";
-import GridContainer from "/components/Grid/GridContainer.js";
-import GridItem from "/components/Grid/GridItem.js";
-import Parallax from "/components/Parallax/Parallax.js";
+import Header from "/components/Shared/Header/Header.js";
+import HeaderLinks from "/components/Shared/Header/HeaderLinks.js";
+import Footer from "/components/KitComponents/NextKit/Footer/Footer.js";
+import GridContainer from "/components/KitComponents/NextKit/Grid/GridContainer.js";
+import GridItem from "/components/KitComponents/NextKit/Grid/GridItem.js";
+import Parallax from "/components/KitComponents/NextKit/Parallax/Parallax.js";
 // sections for this page
 import BlogPostsList from "/components/Blog/BlogPostsList.js";
 import SectionImage from "/components/Blog/SectionImage.js";
@@ -74,7 +74,7 @@ export default function Home({posts}) {
                       </Link>
                     </ListItem>
                     <ListItem className={classes.inlineBlock}>
-                      <Link href="/pages/search-results">
+                      <Link href="/search-results">
                         <a className={classes.block}>
                           Our Villas
                         </a>
@@ -88,14 +88,14 @@ export default function Home({posts}) {
                       </Link>
                     </ListItem>
                     <ListItem className={classes.inlineBlock}>
-                      <Link href="/pages/about-us">
+                      <Link href="/about-us">
                         <a className={classes.block}>
                           About Us
                         </a>
                       </Link>
                     </ListItem>
                     <ListItem className={classes.inlineBlock}>
-                      <Link href="/pages/contact-us">
+                      <Link href="/contact-us">
                         <a className={classes.block}>
                           Contact Us
                         </a>

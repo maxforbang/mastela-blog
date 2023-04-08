@@ -8,12 +8,13 @@ import ListItem from "@mui/material/ListItem";
 import FormatAlignLeft from "@mui/icons-material/FormatAlignLeft";
 import Favorite from "@mui/icons-material/Favorite";
 // core components
-import Header from "../../components/Blog/Header/Header";
-import HeaderLinks from "/components/Blog/Header/HeaderLinks.js";
-import Parallax from "/components/Parallax/Parallax.js";
-import Footer from "/components/Footer/Footer.js";
-import GridContainer from "/components/Grid/GridContainer.js";
-import GridItem from "/components/Grid/GridItem.js";
+
+import Header from "/components/Shared/Header/Header";
+import HeaderLinks from "/components/Shared/Header/HeaderLinks.js";
+import Parallax from "/components/KitComponents/NextKit/Parallax/Parallax.js";
+import Footer from "/components/KitComponents/NextKit/Footer/Footer.js";
+import GridContainer from "/components/KitComponents/NextKit/Grid/GridContainer.js";
+import GridItem from "/components/KitComponents/NextKit/Grid/GridItem.js";
 import SectionBlogInfo from "/components/Blog/SectionBlogInfo.js";
 
 

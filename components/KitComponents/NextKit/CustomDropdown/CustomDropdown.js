@@ -13,7 +13,7 @@ import Grow from "@mui/material/Grow";
 import Divider from "@mui/material/Divider";
 import Popper from "@mui/material/Popper";
 // core components
-import Button from "/components/CustomButtons/Button.js";
+import Button from "/components/KitComponents/NextKit/CustomButtons/Button.js";
 
 import styles from "/styles/jss/nextjs-material-kit-pro/components/customDropdownStyle.js";
 
